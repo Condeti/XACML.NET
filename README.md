@@ -1,4 +1,4 @@
-# XACML.NET - ASP.NET RESTful API with MongoDb 3.x
+# XACML.NET - ASP.NET RESTful API
 This project implements the OASIS XACML REST API for Microsoft .NET (C#)
 
 This version is not ready yet. This version bases on the project from http://mvpos.sourceforge.net/
