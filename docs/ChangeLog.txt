@@ -1,0 +1,171 @@
+0.1
+ - Initial release.
+v.2
+ - ChangeLog added.
+ - License comments added .
+ - Comments added to many classes.
+ - AttributeDesignator was changed to abstract.
+ - AttributeAssignment does not extends AttributeValue.
+ - AttributeValue does not receives the node name in its constructor.
+ - AttributeReference was changed to abstract.
+ - Obligation constructor with a string was removed.
+ - Id property added in the Policy class.
+ - HasTarget and Target properties removed from PolicyDocument
+ - ChildPolicies in PolicySet have been renamed to Policies
+ - Rrivate default constructor added to the TargetItem class.
+ - targetItem argument removed from the IAttributeRepository interface.
+ - Added function repository interface.
+ - Added argument EvaluationEngine to the IFunction interface
+ - Added IPolicyCombiningAlgorithRepository interface
+ - Added IRuleCombiningAlgorithRepository intefface
+ - NameTypeConfig was changed to abstract.
+ - RuleCombiningAlgorithmRepository and PolicyCombiningAlgorithmRepository configuration classes added
+ - Lagash added to the namespace
+ - Attributes property removed form the ResourceContent class.
+ - Attributes property removed form the AttributeValue class.
+ - Attributes property removed form the AttributeAssignment class.
+ - Attributes property removed form the AttributeValue class.
+ - FindAttribute.FindAttribute method moved to the EvaluationEngine class.
+ - IRuleEvaluable change to IEvaluable.
+ - Target property removed from Policy class.
+ - Added SubjectCollection typed list.
+ - Added ResultCollection typed list.
+ - Added ObligationCollection typed list.
+ - Added RuleCollection typed list.
+ - Added AttributeCollection typed list.
+ - Added IEvaluableCollection typed list.
+ - Added IFunctionParameterCollection typed list.
+ - Added AttributeAssignmentCollection typed list.
+ - Added MatchCollection typed list.
+ - Added TargetItemCollection typed list.
+ - Id property added to the PolicySet class.
+ - Initial XACML Control Center code added.
+ - XPathVersion property added to the Policy and PolicySet class.
+ - DataType property added to the AttributeValue class.
+ - Constructor added to the Match abstract base class so Match can be created without an XmlReader.
+ - Constructor added to the AttributeValue class so it can be created without an XmlReader.
+ - Constructor added to the AttributeReference class so it can be created without an XmlReader.
+ - Constructor added to the AttributeDesignator class so it can be created without an XmlReader.
+ - Constructor added to the SubjectAttributeDesignator class so it can be created without an XmlReader.
+ - Evaluation classes Actions, Resources and Subjects were removed.
+ - Constructor added to the pol.Policy class so it can be createed without an XmlReader.
+ - Constructor added tot the pol.Target class so it can be created without an XmlReader.
+ - Constructor added tot the pol.TargetItems class so it can be created without an XmlReader.
+ - PolicySchema.DataTypes renamed to PolicySchema.InternalDataTypes
+ - IHasTarget interface added to the Policy namespace.
+ - IFunctionRepository is working
+ - DataType handling drastically changed in order to implement DataType extensions.
+ - Evaluation namespace changed to Runtime
+v0.3
+ - Strcture change
+v0.4
+ - When the configuration file is missing no exceptions are thrown and the behavior was corrected.
+ - Trace reporting improved for function calls
+ - Data type repository implemented.
+ - DefaultAttributeRepository implements the attribute matching as described in the specification.
+ - PCA external repository implemented
+ - RCA external repository implemented
+ - New documentation HTML files added to the project.
+v.5
+ - Context documents can be created without an Xml file.
+ - Exception strings placed in a resource file
+ - More comments added to the functions
+ - Helper methods added to FunctionBase in order to avoid lots of casting in the function implementation
+ - FxCops adherence, from 300 errors, now we have around 20 most of them should be ignored
+ - All elements have comments added
+ - CHM generated with NDoc
+ - Context and Policy schema constants structure changed in order to conform FxCops rules
+ - Changes to the IDataType interface to make FxCops compliant
+ - Comments completed after testing the CHM.
+ - All the classes in the Context and Policy namespaces were renamed with the Element suffix in order to be FxCops compliant.
+ - Control center TargetItem editing improved
+ - Databinding implemented in all the controls except condition and Obligations.
+ - Icons added to the main tree
+ - version added to the PolicyLoader and Policy classes, if the version is not provided it will be verified from the document, but it may impact in performance
+ - TextReader supported in the PolicyLoader overloads
+ - PolicyDocument constructor bug found and fixed
+ - Version was added to all the elements in the Policy schema classes
+ - XacmlElement abstract class added to validate namespaces using the version information
+ - MatchBase renaed to TargetMatchBase
+ - MatchCollection renamed to TargetMatchCollection
+ - Environment Target element added
+ - Target items moved to a folder within Policy named TargetItems
+ - IApplyArgument renamed to IExpressionType to conform easier with V2
+ - EvaluationEngine have been changed to pass the conformance test IIIC002.
+ - Version and schema distinctions are supported in Policy and Context document loading.
+v.6
+ - Exception managememnt added internally and EvaluationException added to the code.
+ - ResourceCollection class added
+ - Multiple Resources in the request is supported.
+ - New release packaged with the first draft version of the Control Center
+ - CHM file updated.
+v.7
+ - MissingAttribute and ProcessingError responsabilities passed to the EvaluationContext class
+ - V 2.0 Context loading finished.
+ - V 2.0 conformance tests added, copying previous ones and changing the namespaces.
+ - Version information added to the default policy repository.
+ - V 2 changes to the condition element added
+ - Conformance Tests for V2 have been modified so they are compatible with V2 schemas.
+ - IIIG005/6 ConformanceTests passed now. There was a bug in the function implementation.
+ - Variables supported
+ - ConformanceTests added for the Variables implementation
+ - HasTarget property removed since it's not needed
+ - XPathVersion loading bug fixed
+ - Policy/Rule CombiningAlgorithm abstract class changed to an interface IPolicy/RuleCombiningAlgorithm, and moved to the interface
+ - IEvaluableCollection renamed to IMatchEvaluableCollection
+ - PCA and RCA CombinerParameters can be reached from the PCA and RCA using the Context.CurrentPolicySet,CurrentPolicy and CurrentRule, to obtain the combiner parameters.
+ - Policy tracing updated
+ - PolicySet tracing updated
+ - Conformance test IIIF007 bug fixed.
+ - Conformance test IIIA014 bug fixed.
+ - AllOfAll and AnyOfAll return value validated.
+ - Method IFunctionParameter.GetType parameter changed to EvaluationContext
+ - IObligationsContainer interface added in order to avoid returning null in the Runtime.Rule element
+ - new conformance tests for the V2 version of the Condition.
+ - new read-only and read-write policy and context classes
+ - additions to the control center
+v.8
+ - StringBaseValue refactored and the interfade IDataType now has a method that is responsible for parsing a string.
+ - Data types added into a Hashtable and they are not hardcoded anymore.
+ - IPAddress data type implemented
+ - DnsName data type implemented
+ - New functions added
+	urn:oasis:names:tc:xacml:2.0:function:string-concatenate
+	urn:oasis:names:tc:xacml:2.0:function:url-string-concatenate
+	urn:oasis:names:tc:xacml:2.0:function:ipAddress-at-least-one-member-of
+	urn:oasis:names:tc:xacml:2.0:function:ipAddress-equals
+	urn:oasis:names:tc:xacml:2.0:function:ipAddress-intersection
+	urn:oasis:names:tc:xacml:2.0:function:ipAddress-is-in
+	urn:oasis:names:tc:xacml:2.0:function:ipAddress-set-equals
+	urn:oasis:names:tc:xacml:2.0:function:ipAddress-subset
+	urn:oasis:names:tc:xacml:2.0:function:ipAddress-union
+	urn:oasis:names:tc:xacml:2.0:function:ipAddress-bag
+	urn:oasis:names:tc:xacml:2.0:function:ipAddress-bag-size
+	urn:oasis:names:tc:xacml:2.0:function:ipAddress-one-and-only
+	urn:oasis:names:tc:xacml:2.0:function:dnsName-at-least-one-member-of
+	urn:oasis:names:tc:xacml:2.0:function:dnsName-equals
+	urn:oasis:names:tc:xacml:2.0:function:dnsName-intersection
+	urn:oasis:names:tc:xacml:2.0:function:dnsName-is-in
+	urn:oasis:names:tc:xacml:2.0:function:dnsName-set-equals
+	urn:oasis:names:tc:xacml:2.0:function:dnsName-subset
+	urn:oasis:names:tc:xacml:2.0:function:dnsName-union
+	urn:oasis:names:tc:xacml:2.0:function:dnsName-bag
+	urn:oasis:names:tc:xacml:2.0:function:dnsName-bag-size
+	urn:oasis:names:tc:xacml:2.0:function:dnsName-one-and-only
+	urn:oasis:names:tc:xacml:2.0:function:string-regexp-match
+	urn:oasis:names:tc:xacml:2.0:function:anyURI-regexp-match
+	urn:oasis:names:tc:xacml:2.0:function:ipAddress-regexp-match
+	urn:oasis:names:tc:xacml:2.0:function:dnsName-regexp-match
+	urn:oasis:names:tc:xacml:2.0:function:rfc822Name-regexp-match
+	urn:oasis:names:tc:xacml:2.0:function:x500Name-regexp-match
+- New context method that allows adding the missing attribute reference when the attribute was not found.
+- CollectionReadwrite classes renamed to ReadWriteCollection
+- StringRegExp function refactored now there is a commen base class for all regexp functions.	
+- ResponseElement.WriteDocument bug fixed in the serialization code.
+- Unit tests validating response context.
+- TargetMatchBaseReadWrite reading bug fixed. Reported by Jonathan Chin.
+- X500Name class implemented by Rui Fiske
+- .NET 2.0 version created in the same files
+- Performance improvements in the .NET 2.0 version to avoid parsing and compiling the schemas multiple times.
+- 
+v.next

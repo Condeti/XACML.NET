@@ -1,0 +1,124 @@
+<html>
+	<head>
+		<title>XACML.NET</title>
+		<style>
+			a:link {color:blue};
+			a:visited {color:blue};
+			a:hover {color:cyan};
+			a:active {color:blue};
+		</style>
+	</head>
+	<body>
+		<font face="Arial">
+		<table width="100%" cellpadding="15" bgcolor="navy" border="0" ID="Table1">
+			<tr bgcolor="navy">
+				<td colspan="2">
+					<font color="Gainsboro">
+					<h1>XACML.NET</h1>
+					<I>The first XACML implementation 100% native .Net open source code.</I>
+					</font>
+				</td>
+			</tr>
+			<tr>
+				<td width="20%" valign="top" bgcolor="navy" height="500px">
+					<font size="4">
+					<font color="white">Home</font><br>
+					<a href="xacml.htm">XACML</a><br>
+					<a href="download.htm">Download</a><br>
+					<a href="links.htm">Links</a><br>
+					<a href="contact.htm">Contact</a><br>
+					</font>
+				</td>
+				<td width="80%" bgcolor="white" valign="top">
+					<P>The idea of this project was to implement the <A href="http://www.oasis-open.org/committees/tc_home.php?wg_abbrev=xacml" target="_blank">
+							XACML</A> specification released by <A href="http://www.oasis-open.org/home/index.php" target="_blank">
+							Oasis</A> in purely .Net code (C#) which can be used by anyone in the .Net 
+						developer comunity. XACML.NET is under the Mozilla license MPL 1.1 so any 
+						software under a license compatible with MPL can use this code.
+					</P>
+					<P>XACML is a specification that defines an access control mechanism based on Xml 
+						documents. The specification defines 3 basic documents: <B>Policy</B> (description 
+						of the permissions), <B>Request</B> (a request for some <I>Subject</I> over 
+						some <I>Resource</I> to perform an <I>Action</I>), and a <B>Response</B> (the 
+						results of applying the policy to the Request document). This implementation 
+						allows loading policies and requests from its Xml representation, and perform 
+						an evaluation aplying the policy. This implementation contains 4 main 
+						assemblies:
+					</P>
+					<UL>
+						<LI>
+							<I>Core</I>. The main implementation code, this assembly contains a set of 
+						classes which are responsible for loading the Policies and Requests and 
+						generating a Response resulting from the evaluation of the Request against a 
+						Policy. In order to implement a PDP this assembly must be referenced and used.
+						<LI>
+							<I>xacmlTest</I>. This is a console based evaluation tool that can be used 
+						to perform an evaluation over an existing policy and request and will print in 
+						the console the result document.
+						<LI>
+							<I>Control center</I>. A GUI tool used to create and edit policies and 
+						requests.
+						<LI>
+							<I>TestHarness</I>. A set of NUnit tests used to execute all the 
+							ConformanceTests provided with the specification.
+						</LI>
+					</UL>
+					<P>Specification conformance: This code implements the 100% XACML 1.0 except the 
+						following differences:
+					</P>
+					<UL>
+						<LI>
+							regexp-string-match. Since this function is defined for XPath 2.0 and .Net 
+							implemnts XPath 1.0 not all the regular expression syntax is supported, 
+							specifically <I>Reluctant quantifiers</I>
+						are not suported, all the other differences between XSD regular expressions are 
+						supported.
+						<LI>
+							The specification is not very clear about the current node for the XPath 
+							expressions and the ConformanceTests are also inconsistent, so a decission was 
+							taked for this implementation.
+						</LI>
+					</UL>
+					<P>XACML 1.1 is still in draft but this implementation supports the new (ordered) 
+						policy and rule combining algorithms and also makes the assumptions for the 
+						XPath expressions return values.
+					</P>
+					<P>There are also optional features in the specification and this implementation 
+						supports the following ones:
+					</P>
+					<UL>
+						<LI>
+						Obligations
+						<LI>
+							<I>Extensible type system</I>. Any data type that is not defined in the 
+						specification can be used in the AttributeValues, and new functions can be 
+						created supporting those data types, the basic evaluation engine will allow 
+						extended data types and there is an API to create the new data types.
+						<LI>
+							<I>Extensible functions</I>. Functions can be created in external 
+						assemblies and added to the evaluation engine in the configuration file.
+						<LI>
+							<I>Extensible algorithms</I>. Policy combining algorith and Rule combining 
+						algorithm can be created in external assemblies and added to the evaluation 
+						engine in the configuration class.
+						<LI>
+							<I>Policy repositories</I>. The specification defines 2 types of policy 
+						repositories: Id based and Target based. The first one is a list of policy 
+						documents based on the Id of the policy or policy set reference. In the second 
+						type the policy or policy set is loaded depending on the Request document 
+						contents, all the policies in the repository will be evaluated to determine 
+						which one matches the request contents.
+						<LI>
+							<I>Attribute repositories</I>. External attribute repositories can be created 
+							and attributes can be defined in the configuration file or using a class that 
+							populates the attribute contents from an external resource.
+						</LI>
+					</UL>
+				</td>
+			</tr>
+		</table>
+		<A href="http://sourceforge.net" target="_blank"><IMG height="62" alt="SourceForge.net Logo" src="http://sourceforge.net/sflogo.php?group_id=76706&amp;type=5"
+				width="210" border="0"></A>
+	</font>
+	</body>
+</html>

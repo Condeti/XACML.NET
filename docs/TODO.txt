@@ -1,0 +1,88 @@
+TODO:
+ . Create a schema for the configuration file, so they schema can be validated before loading the document.
+ . GUI editing client "Control Center"
+    . Support for testing only part of the policy( Target, Match, Rule, Apply, Function, Condition, Policy, PolicySet )
+    . Support for creating Policies and Context documents using a template based approach
+ . Improve error reporting when a bag is being treated as a value and vice versa
+ . Return the missing elements in the status
+ . Create a new a cool UI for the project current page is unaceptable
+ . Create new providers for a detabase as external repository
+ . Create a data type repository like the one implemented for the functions
+ . V 2.0
+	. Create ConformanceTests 
+		. For the new elements
+			. MissingAttributeDetail
+		. For the new data types
+			. urn:oasis:names:tc:xacml:2.0:data-type:ipAddress
+			. urn:oasis:names:tc:xacml:2.0:data-type:dnsName
+		. For the new functions
+			. urn:oasis:names:tc:xacml:2.0:function:string-concatenate
+			. urn:oasis:names:tc:xacml:2.0:function:url-string-concatenate
+			. urn:oasis:names:tc:xacml:2.0:function:ipAddress-at-least-one-member-of
+			. urn:oasis:names:tc:xacml:2.0:function:ipAddress-equals
+			. urn:oasis:names:tc:xacml:2.0:function:ipAddress-intersection
+			. urn:oasis:names:tc:xacml:2.0:function:ipAddress-is-in
+			. urn:oasis:names:tc:xacml:2.0:function:ipAddress-set-equals
+			. urn:oasis:names:tc:xacml:2.0:function:ipAddress-subset
+			. urn:oasis:names:tc:xacml:2.0:function:ipAddress-union
+			. urn:oasis:names:tc:xacml:2.0:function:ipAddress-bag
+			. urn:oasis:names:tc:xacml:2.0:function:ipAddress-bag-size
+			. urn:oasis:names:tc:xacml:2.0:function:ipAddress-one-and-only
+			. urn:oasis:names:tc:xacml:2.0:function:dnsName-at-least-one-member-of
+			. urn:oasis:names:tc:xacml:2.0:function:dnsName-equals
+			. urn:oasis:names:tc:xacml:2.0:function:dnsName-intersection
+			. urn:oasis:names:tc:xacml:2.0:function:dnsName-is-in
+			. urn:oasis:names:tc:xacml:2.0:function:dnsName-set-equals
+			. urn:oasis:names:tc:xacml:2.0:function:dnsName-subset
+			. urn:oasis:names:tc:xacml:2.0:function:dnsName-union
+			. urn:oasis:names:tc:xacml:2.0:function:dnsName-bag
+			. urn:oasis:names:tc:xacml:2.0:function:dnsName-bag-size
+			. urn:oasis:names:tc:xacml:2.0:function:dnsName-one-and-only
+			. urn:oasis:names:tc:xacml:2.0:function:anyURI-regexp-match
+			. urn:oasis:names:tc:xacml:2.0:function:ipAddress-regexp-match
+			. urn:oasis:names:tc:xacml:2.0:function:dnsName-regexp-match
+			. urn:oasis:names:tc:xacml:2.0:function:rfc822Name-regexp-match
+			. urn:oasis:names:tc:xacml:2.0:function:x500Name-regexp-match
+    . MissingAttributeDetail must be within the StatusDetail.
+    . Valdate the namespace of the root element for the ResourceContext is the same as the resource attribute: urn:oasis:names:tc:xacml:2.0:resource:target-namespace
+
+Missing Conformance Tests     
+ . PolicySet with 
+      . PolicySets
+      . CombinerParameter
+      . PolicySetCombinerParameter
+ . Policy with 
+      . CombinerParameter
+      . PolicySetCombinerParameter
+ . Apply with
+      . Function that does not exists.
+      . VariableReference that results in MissingAttribute
+      . VariableReference that results in ProcessingError
+      . XPath that throws an error
+ . Evaluating with a Context where the policy must be loaded
+ . V1 - Condition with a function that does not exists
+ . V1 - Condition with a function that does not returns a bool
+ . Apply with a type mismatch error
+ . Apply with a function with variable arguments and a type mismatch in arguments
+ . Version in PolicySet and Policy Reference
+ . PCA-OnlyOneApplicable where the Match returns Indeterminate
+ . Match with a function that does not exists
+ . Match with a function that does not returns bool
+ . Ordered PCA and RCA
+ . urn:oasis:names:tc:xacml:1.0:function:any-of-all that returns False
+ . urn:oasis:names:tc:xacml:1.0:function:yearMonthDuration-union function not tested
+ . urn:oasis:names:tc:xacml:1.0:function:yearMonthDuration-subset function not tested
+ . urn:oasis:names:tc:xacml:1.0:function:dayTimeDuration-intersection function not tested
+ . urn:oasis:names:tc:xacml:1.0:function:dayTimeDuration-at-least-one-member-of function not tested
+ . urn:oasis:names:tc:xacml:1.0:function:dayTimeDuration-intersection function not tested
+ . urn:oasis:names:tc:xacml:1.0:function:dayTimeDuration-set-equals function not tested
+ . urn:oasis:names:tc:xacml:1.0:function:dayTimeDuration-subset function not tested
+ . urn:oasis:names:tc:xacml:1.0:function:dayTimeDuration-union
+ 
+Future plans: 
+ . Analize interaction with AzMan whether it can be converted from/to XACML policies.
+ . Create a WsExtension to implement WsBindings.
+ . Create a WebService that receives a Request in the Body and returns a Response
+ . Create CAS attribue/permission
+ . Support CompiledPolicies, which generates IL for the PolicyDocument which will make the evaluation faster.
+ 

@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>7.10.3077</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5F7BE0C9-BEFD-4811-8406-4B920DE31485}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>App.ico</ApplicationIcon>
+    <AssemblyKeyContainerName />
+    <AssemblyName>Xacml.Control.Center</AssemblyName>
+    <AssemblyOriginatorKeyFile />
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Xacml.Control.Center</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>0.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>doc\xacml.ControlCenter.xml</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxInterop.SHDocVw">
+      <HintPath>..\packages\AxInterop.SHDocVw.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.SHDocVw">
+      <HintPath>..\packages\Interop.SHDocVw.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ContextCustomControls\Attribute.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ContextCustomControls\Resource.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ContextCustomControls\XmlViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ContextTreeNodes\Action.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ContextTreeNodes\Attribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ContextTreeNodes\ContextDocument.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ContextTreeNodes\Environment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ContextTreeNodes\Request.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ContextTreeNodes\Resource.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ContextTreeNodes\Subject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CustomControls\BaseControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomControls\Condition.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomControls\Match.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomControls\Obligations.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomControls\Policy.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomControls\PolicySet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomControls\Rule.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomControls\TargetItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MainClass.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TreeNodes\AnyAction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TreeNodes\AnyResource.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TreeNodes\AnySubject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TreeNodes\AnyTarget.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TreeNodes\AttributeDesignator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TreeNodes\AttributeSelector.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TreeNodes\AttributeValue.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TreeNodes\Condition.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TreeNodes\FunctionExecution.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TreeNodes\FunctionParameter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TreeNodes\NoBoldNode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TreeNodes\Obligations.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TreeNodes\Policy.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TreeNodes\PolicyDocument.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TreeNodes\PolicyIdReference.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TreeNodes\PolicySet.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TreeNodes\PolicySetIdReference.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TreeNodes\Rule.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TreeNodes\Target.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TreeNodes\TargetItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Content Include="App.ico" />
+    <EmbeddedResource Include="ContextCustomControls\Attribute.resx">
+      <DependentUpon>Attribute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContextCustomControls\Resource.resx">
+      <DependentUpon>Resource.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContextCustomControls\XmlViewer.resx">
+      <DependentUpon>XmlViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControls\BaseControl.resx">
+      <DependentUpon>BaseControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControls\Condition.resx">
+      <DependentUpon>Condition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControls\Match.resx">
+      <DependentUpon>Match.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControls\Obligations.resx">
+      <DependentUpon>Obligations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControls\Policy.resx">
+      <DependentUpon>Policy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControls\PolicySet.resx">
+      <DependentUpon>PolicySet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControls\Rule.resx">
+      <DependentUpon>Rule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControls\TargetItem.resx">
+      <DependentUpon>TargetItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Xacml.Core\Xacml.Core.csproj">
+      <Project>{dbcc02f8-5513-47d3-a16f-0a9953abed94}</Project>
+      <Name>Xacml.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent />
+  </PropertyGroup>
+</Project>

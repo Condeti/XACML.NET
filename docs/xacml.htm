@@ -1,0 +1,84 @@
+<html>
+	<head>
+		<title>XACML.NET</title>
+		<style>
+			a:link {color:blue};
+			a:visited {color:blue};
+			a:hover {color:cyan};
+			a:active {color:blue};
+		</style>
+	</head>
+	<body>
+		<font face="Arial">
+			<table width="100%" cellpadding="15" bgcolor="navy" border="0" ID="Table1">
+				<tr bgcolor="navy">
+					<td colspan="2">
+						<font color="Gainsboro">
+						<h1>XACML.NET</h1>
+						<I>The first XACML implementation 100% native .Net open source code.</I>
+						</font>
+					</td>
+				</tr>
+				<tr>
+					<td width="20%" valign="top" bgcolor="navy" height="500px">
+						<font size="4"><a href="index.html">Home</a><br>
+							<font color="white">XACML</font><br>
+							<a href="download.htm">Download</a><br>
+							<a href="links.htm">Links</a><br>
+							<a href="contact.htm">Contact</a><br>
+						</font>
+					</td>
+					<td width="80%" bgcolor="white" valign="top">
+						<H2>XACML</H2>
+						<p>XACML (eXtensible Access Control Markup Language)is an <A href="http://www.oasis-open.org" target="_blank">OASIS</A> standard that 
+							describes both a policy language and an access control decision 
+							request/response language (both encoded in XML). The policy language is used to 
+							describe general access control requirements, and has standard extension points 
+							for defining new functions, data types, combining logic, etc. The 
+							request/response language lets you form a query to ask whether or not a given 
+							action should be allowed, and interpret the result. The response always 
+							includes an answer about whether the request should be allowed using one of 
+							four values: Permit, Deny, Indeterminate (an error occurred or some required 
+							value was missing, so a decision cannot be made) or Not Applicable (the request 
+							can't be answered by this service).
+						</p>
+						<P>The typical setup is that someone wants to take some action on a resource. They 
+							will make a request to whatever actually protects that resource (like a 
+							filesystem or a web server), which is called a Policy Enforcement Point (PEP). 
+							The PEP will form a request based on the requester's attributes, the resource 
+							in question, the action, and other information pertaining to the request. The 
+							PEP will then send this request to a Policy Decision Point (PDP), which will 
+							look at the request, find some policy that applies to the request, and come up 
+							with an answer about whether access should be granted. That answer is returned 
+							to the PEP, which can then allow or deny access to the requester. Note that the 
+							PEP and PDP might both be contained within a single application, or might be 
+							distributed across several servers. In addition to providing request/response 
+							and policy languages, XACML also provides the other pieces of this 
+							relationship, namely finding a policy that applies to a given request and 
+							evaluating the request against that policy to come up with a yes or no answer.
+						</P>
+						<h3>
+							Documents
+						</h3>
+						<ul>
+							<li>
+								<a href="http://docs.oasis-open.org/xacml/access_control-xacml-2_0-core-spec-cd-04.pdf" target="_blank">
+									Core Specification: eXtensible Access Control Markup Language (XACML) Version 
+									2.0</a>
+							</li>
+							<li>
+								<a href="http://docs.oasis-open.org/xacml/access_control-xacml-2.0-saml_profile-spec-cd-02.pdf" target="_blank">
+									SAML 2.0 profile of XACML</a>
+							</li>
+							<li>
+								<a href="http://www.oasis-open.org/committees/download.php/3661/draft-xacml-wspl-04.pdf" target="_blank">
+									XACML profile for Web-services (WSPL)</a>
+							</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+			<A href="http://sourceforge.net" target="_blank"><IMG height="62" alt="SourceForge.net Logo" src="http://sourceforge.net/sflogo.php?group_id=76706&amp;type=5"
+					width="210" border="0"></A> </font>
+	</body>
+</html>
