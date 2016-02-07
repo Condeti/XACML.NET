@@ -36,8 +36,12 @@
  * ***** END LICENSE BLOCK ***** */
 
 using System;
+using System.Configuration;
+using System.IO;
 using System.Xml;
 using Xacml.Core;
+using Xacml.Core.Configuration;
+using Xacml.Core.Context;
 using Xacml.Core.Runtime;
 
 namespace Xacml.Console
@@ -53,38 +57,50 @@ namespace Xacml.Console
 		/// <param name="args">The parsed command line arguments.</param>
 		static void Main(string[] args)
 		{
-			string policy = String.Empty, request = String.Empty;
+		    var t = ConfigurationManager.OpenExeConfiguration(@"C:\Git\Xacml.Net\Xacml.Console\bin\Debug\Xacml.Console.exe.config");
+
+            string policy = String.Empty, request = String.Empty;
 			bool verbose = false;
-            //foreach( string arg in args )
+            //foreach (string arg in args)
             //{
-            //    if( (arg[0] == '/' || arg[0] == '-') )
+            //    if ((arg[0] == '/' || arg[0] == '-'))
             //    {
-            //        if( arg[1] == 'p' || arg[1] == 'P' )
+            //        if (arg[1] == 'p' || arg[1] == 'P')
             //        {
-            //            policy = arg.Substring( 3 );
+            //            policy = arg.Substring(3);
             //        }
 
-            //        if( arg[1] == 'r' || arg[1] == 'R' )
+            //        if (arg[1] == 'r' || arg[1] == 'R')
             //        {
-            //            request = arg.Substring( 3 );
+            //            request = arg.Substring(3);
             //        }
 
-            //        if( arg[1] == 'v' || arg[1] == 'V' )
+            //        if (arg[1] == 'v' || arg[1] == 'V')
             //        {
             //            verbose = true;
             //        }
             //    }
             //}
 
-			try
+            try
 			{
-                request = @"C:\xacml\mvpos\mvpos\xacml.net\Samples\Request.xml";
-                policy = @"C:\xacml\mvpos\mvpos\xacml.net\Samples\Policy.xml";
-				if( request.Length != 0 && policy.Length != 0 )
+                request = @"C:\Git\Xacml.Net\Samples\requests\IIA001Request.xml";
+                //request = @"C:\Git\Xacml.Net\Samples\Request.xml";
+                policy = @"C:\Git\Xacml.Net\Samples\Policy.xml";
+                if ( request.Length != 0 && policy.Length != 0 )
 				{
-					var res = new EvaluationEngine( verbose ).Evaluate( policy, request, XacmlVersion.Version10 );
-				    XmlTextWriter tw = new XmlTextWriter(System.Console.Out) {Formatting = Formatting.Indented};
-				    res.WriteDocument( tw );
+				    using (FileStream fs1 = new FileStream(request, FileMode.Open, FileAccess.Read))
+
+				    {
+				        // Load Request
+				        ContextDocumentReadWrite requestDocument = ContextLoader.LoadContextDocument(fs1, XacmlVersion.Version20);
+                        
+                        var res = new EvaluationEngine(verbose).Evaluate((ContextDocument)requestDocument);
+                        XmlTextWriter tw = new XmlTextWriter(System.Console.Out) { Formatting = Formatting.Indented };
+                        res.WriteDocument(tw);
+                    }
+
+                    
 				}
 				else
 				{

@@ -36,14 +36,13 @@
  * ***** END LICENSE BLOCK ***** */
 
 using System;
-using cor = Xacml.Core;
 
 namespace Xacml.Core.Context
 {
-	/// <summary>
-	/// Defines a typed collection of Subjects.
-	/// </summary>
-	public class SubjectCollection : SubjectReadWriteCollection 
+    /// <summary>
+    /// Defines a typed collection of Subjects.
+    /// </summary>
+    public class SubjectCollection : SubjectReadWriteCollection 
 	{
 		#region Constructors
 		/// <summary>
@@ -59,10 +58,10 @@ namespace Xacml.Core.Context
 		/// <param name="items"></param>
 		public SubjectCollection( SubjectReadWriteCollection items )
 		{
-            if (items == null) throw new ArgumentNullException("items");
+            if (items == null) throw new ArgumentNullException(nameof(items));
 			foreach( SubjectElementReadWrite item in items )
 			{
-				this.Add( item );
+				Add( item );
 			}
 		}
 
@@ -75,10 +74,13 @@ namespace Xacml.Core.Context
 		/// </summary>
 		/// <param name="value">The Object to be added to the end of the CollectionBase. </param>
 		/// <returns>The CollectionBase index at which the value has been added.</returns>
-		public override int Add( SubjectElementReadWrite value )  
+		public sealed override int Add( SubjectElementReadWrite value )  
 		{
-            if (value == null) throw new ArgumentNullException("value");
-			return( List.Add( new SubjectElement( value.SubjectCategory, new AttributeCollection( value.Attributes ), value.SchemaVersion ) ) );
+            if (value == null) throw new ArgumentNullException(nameof(value));
+			return List.Add( 
+                new SubjectElement(value.SubjectCategory ?? string.Empty, 
+                new AttributeCollection( value.Attributes ), 
+                value.SchemaVersion));
 		}
 		/// <summary>
 		/// Clears the collection

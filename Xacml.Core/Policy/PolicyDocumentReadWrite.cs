@@ -76,12 +76,13 @@ namespace Xacml.Core.Policy
         /// <summary>
         /// The name of the embedded resource for the 1.0 schema.
         /// </summary>
-        public const string XACML_1_0_POLICY_SCHEMA_RESOURCE_NAME = "Xacml.Core.Schemas.cs-xacml-schema-policy-01.xsd";
+        public const string Xacml10PolicySchemaResourceName = "Xacml.Core.Schemas.cs-xacml-schema-policy-01.xsd";
 
         /// <summary>
         /// The name of the embedded resource for the 2.0 schema.
         /// </summary>
-        public const string XACML_2_0_POLICY_SCHEMA_RESOURCE_NAME = "Xacml.Core.Schemas.access_control-xacml-2.0-policy-schema-cd-01.xsd";
+        public const string Xacml20PolicySchemaResourceName = "Xacml.Core.Schemas.access_control-xacml-2.0-policy-schema-os.xsd";
+        //public const string XACML_2_0_POLICY_SCHEMA_RESOURCE_NAME = "Xacml.Core.Schemas.access_control-xacml-2.0-policy-schema-cd-01.xsd";
 
         /// <summary>
         /// The version of the instance used to validate this document.
@@ -92,12 +93,12 @@ namespace Xacml.Core.Policy
         /// <summary>
         /// The compiled schema for the policy document is kept in memory for performance reasons.
         /// </summary>
-        private static XmlSchemaSet compiledSchemas11;
+        private static XmlSchemaSet _compiledSchemas11;
 
         /// <summary>
         /// The compiled schema for the policy document is kept in memory for performance reasons.
         /// </summary>
-        private static XmlSchemaSet compiledSchemas20;
+        private static XmlSchemaSet _compiledSchemas20;
 #endif
         #endregion
 
@@ -132,9 +133,8 @@ namespace Xacml.Core.Policy
 			XmlValidatingReader vreader = new XmlValidatingReader( reader );
 #endif
 #if NET20
-            ValidationEventHandler validationHandler = new ValidationEventHandler(vreader_ValidationEventHandler);
-            XmlReaderSettings settings = new XmlReaderSettings();
-            settings.ValidationType = ValidationType.Schema;
+            ValidationEventHandler validationHandler = vreader_ValidationEventHandler;
+            XmlReaderSettings settings = new XmlReaderSettings {ValidationType = ValidationType.Schema};
             settings.ValidationEventHandler += validationHandler;
             XmlReader vreader = null;
 #endif
@@ -145,37 +145,37 @@ namespace Xacml.Core.Policy
                     case XacmlVersion.Version10:
                     case XacmlVersion.Version11:
                         {
-                            Stream schemaStream = Assembly.GetExecutingAssembly().GetManifestResourceStream(XACML_1_0_POLICY_SCHEMA_RESOURCE_NAME);
+                            Stream schemaStream = Assembly.GetExecutingAssembly().GetManifestResourceStream(Xacml10PolicySchemaResourceName);
 #if NET10
                             XmlTextReader schemaReader = new XmlTextReader(schemaStream);
 						    vreader.Schemas.Add( PolicySchema1.Namespaces.Policy, schemaReader );
 #endif
 #if NET20
-                            if (compiledSchemas11 == null)
+                            if (_compiledSchemas11 == null)
                             {
-                                compiledSchemas11 = new XmlSchemaSet();
-                                compiledSchemas11.Add(XmlSchema.Read(schemaStream, validationHandler));
-                                compiledSchemas11.Compile();
+                                _compiledSchemas11 = new XmlSchemaSet();
+                                _compiledSchemas11.Add(XmlSchema.Read(schemaStream, validationHandler));
+                                _compiledSchemas11.Compile();
                             }
-                            settings.Schemas.Add(compiledSchemas11);
+                            settings.Schemas.Add(_compiledSchemas11);
 #endif
                             break;
                         }
                     case XacmlVersion.Version20:
                         {
-                            Stream schemaStream = Assembly.GetExecutingAssembly().GetManifestResourceStream(XACML_2_0_POLICY_SCHEMA_RESOURCE_NAME);
+                            Stream schemaStream = Assembly.GetExecutingAssembly().GetManifestResourceStream(Xacml20PolicySchemaResourceName);
 #if NET10
                             XmlTextReader schemaReader = new XmlTextReader(schemaStream);
 						    vreader.Schemas.Add( PolicySchema2.Namespaces.Policy, schemaReader );
 #endif
 #if NET20
-                            if (compiledSchemas20 == null)
+                            if (_compiledSchemas20 == null)
                             {
-                                compiledSchemas20 = new XmlSchemaSet();
-                                compiledSchemas20.Add(XmlSchema.Read(schemaStream, validationHandler));
-                                compiledSchemas20.Compile();
+                                _compiledSchemas20 = new XmlSchemaSet();
+                                _compiledSchemas20.Add(XmlSchema.Read(schemaStream, validationHandler));
+                                _compiledSchemas20.Compile();
                             }
-                            settings.Schemas.Add(compiledSchemas20);
+                            settings.Schemas.Add(_compiledSchemas20);
 #endif
                             break;
                         }

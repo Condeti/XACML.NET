@@ -1482,16 +1482,15 @@
       <SubType>Code</SubType>
     </Compile>
     <EmbeddedResource Include="Messages.resx" />
-    <EmbeddedResource Include="Schemas\access_control-xacml-2.0-context-schema-cd-01.xsd" />
-    <EmbeddedResource Include="Schemas\access_control-xacml-2.0-policy-schema-cd-01.xsd" />
     <EmbeddedResource Include="Schemas\cs-xacml-schema-context-01.xsd" />
     <EmbeddedResource Include="Schemas\cs-xacml-schema-policy-01.xsd" />
-    <None Include="Schemas\access_control-xacml-2.0-context-schema-cd-01.xsx">
-      <DependentUpon>access_control-xacml-2.0-context-schema-cd-01.xsd</DependentUpon>
-    </None>
-    <None Include="Schemas\access_control-xacml-2.0-policy-schema-cd-01.xsx">
-      <DependentUpon>access_control-xacml-2.0-policy-schema-cd-01.xsd</DependentUpon>
-    </None>
+    <None Include="ClassDiagram1.cd" />
+    <EmbeddedResource Include="Schemas\access_control-xacml-2.0-context-schema-os.xsd">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Schemas\access_control-xacml-2.0-policy-schema-os.xsd">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <None Include="Schemas\cs-xacml-schema-context-01.xsx">
       <DependentUpon>cs-xacml-schema-context-01.xsd</DependentUpon>
     </None>

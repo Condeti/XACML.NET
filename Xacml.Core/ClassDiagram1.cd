@@ -1,0 +1,3648 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access">
+  <Class Name="Xacml.Core.Configuration.AttributeRepositoryConfig" Collapsed="true">
+    <Position X="1.25" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configuration\AttributeRepositoryConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Configuration.ConfigurationRoot" Collapsed="true">
+    <Position X="605.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIIAAAACgAAAAAAAAEACAAggAAIAAAAMCAAAAEAAAA=</HashCode>
+      <FileName>Configuration\ConfigurationRoot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Configuration.DataTypeRepositoryConfig" Collapsed="true">
+    <Position X="4" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configuration\DataTypeRepositoryConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Configuration.FunctionRepositoryConfig" Collapsed="true">
+    <Position X="7" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configuration\FunctionRepositoryConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Configuration.NameTypeConfig" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIBAAAAIAAAQBAAAAAAQAAAAAABAAAQAAAAAAAAA=</HashCode>
+      <FileName>Configuration\NameTypeConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Configuration.PolicyCombiningAlgorithmRepository" Collapsed="true">
+    <Position X="9.75" Y="1.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configuration\PolicyCombiningAlgorithmRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Configuration.PolicyRepositoryConfig" Collapsed="true">
+    <Position X="13.25" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configuration\PolicyRepositoryConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Configuration.RuleCombiningAlgorithmRepository" Collapsed="true">
+    <Position X="16" Y="1.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configuration\RuleCombiningAlgorithmRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Configuration.SectionHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="598.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configuration\SectionHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Xacml.Core.Context.ActionElement" Collapsed="true">
+    <Position X="142.5" Y="8.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Context\ActionElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Context.ActionElementReadWrite" Collapsed="true">
+    <Position X="142.25" Y="7.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAACAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Context\ActionElementReadWrite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Context.AttributeCollection" Collapsed="true">
+    <Position X="0.5" Y="23" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAACAAAAAAAAAAAAAAACAAAAABAAAA=</HashCode>
+      <FileName>Context\AttributeCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Context.AttributeElement" Collapsed="true">
+    <Position X="160.75" Y="8.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAIAAAAQAAAEAAAAAAEAAAIAAAAgABAAAAA=</HashCode>
+      <FileName>Context\AttributeElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Context.AttributeElementReadWrite" Collapsed="true">
+    <Position X="160.5" Y="7.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAEAAoBAAAIABAAUIAEEAAAAAAEAAAIAAAAgABAAAAA=</HashCode>
+      <FileName>Context\AttributeElementReadWrite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Context.AttributeReadWriteCollection" Collapsed="true">
+    <Position X="0.5" Y="21.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAQCAAAAAAAAAAAAAAACAAAAABAAAA=</HashCode>
+      <FileName>Context\AttributeReadWriteCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Context.AttributeValueElement" Collapsed="true">
+    <Position X="167" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAIAAAAgAABAAAA=</HashCode>
+      <FileName>Context\AttributeValueElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Context.AttributeValueElementCollection" Collapsed="true">
+    <Position X="21.75" Y="12" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAACAAAAAAAAAAAAAAACAAAAABAAAA=</HashCode>
+      <FileName>Context\AttributeValueElementCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Context.AttributeValueElementReadWrite" Collapsed="true">
+    <Position X="166.75" Y="7.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAARAAAAAAAAAAAAAAIAAAAgAABAAAA=</HashCode>
+      <FileName>Context\AttributeValueElementReadWrite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Context.AttributeValueElementReadWriteCollection" Collapsed="true">
+    <Position X="21.5" Y="10.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAACAAAAAAAAAAAAAAACAAAAABAAAA=</HashCode>
+      <FileName>Context\AttributeValueElementReadWriteCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Context.ContextDocument" Collapsed="true">
+    <Position X="20.75" Y="19.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Context\ContextDocument.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Context.ContextDocumentReadWrite" Collapsed="true">
+    <Position X="20.5" Y="18.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QAAAIAEiAABQACAQQAAAAABBAAMAgAgAQAAAAARAAAg=</HashCode>
+      <FileName>Context\ContextDocumentReadWrite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Context.EnvironmentElement" Collapsed="true">
+    <Position X="148" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Context\EnvironmentElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Context.EnvironmentElementReadWrite" Collapsed="true">
+    <Position X="147.75" Y="7.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAACAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Context\EnvironmentElementReadWrite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Context.RequestElement" Collapsed="true">
+    <Position X="8.75" Y="7.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEACIAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Context\RequestElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Context.RequestElementReadWrite" Collapsed="true">
+    <Position X="8.5" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEACIgAAABAQAAAAAAAAACAAIAAAAAAAgAAAAAQ=</HashCode>
+      <FileName>Context\RequestElementReadWrite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Context.ResourceCollection" Collapsed="true">
+    <Position X="15.5" Y="22" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAACAAAAAAAAAAAAAAACAAAAABAAAA=</HashCode>
+      <FileName>Context\ResourceCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Context.ResourceContentElement" Collapsed="true">
+    <Position X="22" Y="7.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Context\ResourceContentElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Context.ResourceContentElementReadWrite" Collapsed="true">
+    <Position X="21.75" Y="5.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAEAAAAARAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Context\ResourceContentElementReadWrite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Context.ResourceElement" Collapsed="true">
+    <Position X="139.5" Y="8.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAQAAAAAAAQAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Context\ResourceElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Context.ResourceElementReadWrite" Collapsed="true">
+    <Position X="139.25" Y="7.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAgAAAAACAAAAAACAAAAAAAAQAAAAAAAIgAAA=</HashCode>
+      <FileName>Context\ResourceElementReadWrite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Context.ResourceReadWriteCollection" Collapsed="true">
+    <Position X="15.5" Y="20.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAABAQCAAAAAAAAAAAAAAACAAAAABAAAA=</HashCode>
+      <FileName>Context\ResourceReadWriteCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Context.ResponseElement" Collapsed="true">
+    <Position X="49" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAQAAAAAAAACAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Context\ResponseElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Context.ResultCollection" Collapsed="true">
+    <Position X="603.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Context\ResultCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Context.ResultElement" Collapsed="true">
+    <Position X="86" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAEAAAAgAAQAAAAAAAIAAAAAQgAICAAAAAAAAA=</HashCode>
+      <FileName>Context\ResultElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Context.StatusCodeElement" Collapsed="true">
+    <Position X="88.25" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAQAAAAAAAAAAABAAAAAAAgAAAABAA=</HashCode>
+      <FileName>Context\StatusCodeElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Context.StatusElement" Collapsed="true">
+    <Position X="117.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAQAAAAAAAAAAABIAAAIAAAAIAAAAA=</HashCode>
+      <FileName>Context\StatusElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Context.SubjectCollection" Collapsed="true">
+    <Position X="11.75" Y="22" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAABAAAA=</HashCode>
+      <FileName>Context\SubjectCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Context.SubjectElement" Collapsed="true">
+    <Position X="145.25" Y="8.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Context\SubjectElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Context.SubjectElementReadWrite" Collapsed="true">
+    <Position X="145" Y="7.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAACgAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Context\SubjectElementReadWrite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Context.SubjectReadWriteCollection" Collapsed="true">
+    <Position X="11.5" Y="20.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAABAQAAAAAAAAAAAAAAAACAAAAABAAAA=</HashCode>
+      <FileName>Context\SubjectReadWriteCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Context.TargetItemBase" Collapsed="true">
+    <Position X="144" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAASAAAAACAQAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Context\TargetItemBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.ContextLoader" Collapsed="true">
+    <Position X="607.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>ContextLoader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.EvaluationException" Collapsed="true">
+    <Position X="603.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EvaluationException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.PolicyLoader" Collapsed="true">
+    <Position X="602" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PolicyLoader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Resource" Collapsed="true">
+    <Position X="612.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAQAAAAAAACAAAEAAAAAAAAAAAACAEgAAAAAA=</HashCode>
+      <FileName>Resource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.XacmlElement" Collapsed="true">
+    <Position X="89.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAJAAAAAAAAQAAAAAAAEAAgAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>XacmlElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Extensions.DefaultAttributeRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="598.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAAAAAAIAAAACAAAAAAA=</HashCode>
+      <FileName>Extensions\DefaultAttributeRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Xacml.Core.Extensions.DefaultDataTypeRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="600.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAQAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Extensions\DefaultDataTypeRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Xacml.Core.Extensions.DefaultFunctionRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="602" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAACAAACAAAAAAA=</HashCode>
+      <FileName>Extensions\DefaultFunctionRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Xacml.Core.Extensions.DefaultPolicyCombiningAlgorithmRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="603.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAACAAAAACA=</HashCode>
+      <FileName>Extensions\DefaultPolicyCombiningAlgorithmRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Xacml.Core.Extensions.DefaultPolicyRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="605.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAgAAgAAAAAAAAAAAAAAAAAAAAAAAAAQAAACAAAAgAA=</HashCode>
+      <FileName>Extensions\DefaultPolicyRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Xacml.Core.Extensions.DefaultRuleCombiningAlgorithmRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="607.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACCAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Extensions\DefaultRuleCombiningAlgorithmRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Xacml.Core.Policy.ApplyBase" Collapsed="true">
+    <Position X="14.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Policy\ApplyBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.ApplyBaseReadWrite" Collapsed="true">
+    <Position X="16.75" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAgAAAAAACAAYAAAAAAAAAA=</HashCode>
+      <FileName>Policy\ApplyBaseReadWrite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.ApplyElement" Collapsed="true">
+    <Position X="16.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Policy\ApplyElement.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Xacml.Core.Policy.AttributeAssignmentCollection" Collapsed="true">
+    <Position X="4.75" Y="22" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAABAAAA=</HashCode>
+      <FileName>Policy\AttributeAssignmentCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.AttributeAssignmentElement" Collapsed="true">
+    <Position X="157" Y="8.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAIAAAAgAAAAAAA=</HashCode>
+      <FileName>Policy\AttributeAssignmentElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.AttributeAssignmentElementReadWrite" Collapsed="true">
+    <Position X="156.75" Y="7.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAVIAAEAAAAAAAAAIIAAAAgAAAAAAA=</HashCode>
+      <FileName>Policy\AttributeAssignmentElementReadWrite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.AttributeAssignmentReadWriteCollection" Collapsed="true">
+    <Position X="4.5" Y="20.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAABAAAA=</HashCode>
+      <FileName>Policy\AttributeAssignmentReadWriteCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.AttributeDesignatorBase" Collapsed="true">
+    <Position X="60.5" Y="7.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAEIAEEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Policy\AttributeDesignatorBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.AttributeReferenceBase" Collapsed="true">
+    <Position X="61.75" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAIEABAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Policy\AttributeReferenceBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Xacml.Core.Policy.AttributeSelectorElement" Collapsed="true">
+    <Position X="68.75" Y="7.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAABAQAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Policy\AttributeSelectorElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.AttributeValueElement" Collapsed="true">
+    <Position X="163.75" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAIAAAAgAABAAAA=</HashCode>
+      <FileName>Policy\AttributeValueElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.AttributeValueElementReadWrite" Collapsed="true">
+    <Position X="163.5" Y="7.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAIAABAVAAAAAAAAAAAAAIIAAAAgAABAAAA=</HashCode>
+      <FileName>Policy\AttributeValueElementReadWrite.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Xacml.Core.Policy.CombinerParameterElement" Collapsed="true">
+    <Position X="123.5" Y="5.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAkAAJQAAAAAAAAAAAA=</HashCode>
+      <FileName>Policy\CombinerParameterElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.ConditionElement" Collapsed="true">
+    <Position X="19" Y="8.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Policy\ConditionElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.ConditionElementReadWrite" Collapsed="true">
+    <Position X="18.75" Y="7.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Policy\ConditionElementReadWrite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.FunctionElement" Collapsed="true">
+    <Position X="154" Y="7.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Policy\FunctionElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.FunctionElementReadWrite" Collapsed="true">
+    <Position X="153.75" Y="5.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAQAAAAAAgAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Policy\FunctionElementReadWrite.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Xacml.Core.Policy.IExpressionCollection" Collapsed="true">
+    <Position X="20.75" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAABAAAA=</HashCode>
+      <FileName>Policy\IExpressionCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.IExpressionReadWriteCollection" Collapsed="true">
+    <Position X="20.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAQAAAAAAAAAAAAAAAACAAAAABAAAA=</HashCode>
+      <FileName>Policy\IExpressionReadWriteCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.ObligationCollection" Collapsed="true">
+    <Position X="0.75" Y="20" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAABAAAA=</HashCode>
+      <FileName>Policy\ObligationCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.ObligationElement" Collapsed="true">
+    <Position X="11.5" Y="7.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAACAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Policy\ObligationElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.ObligationElementReadWrite" Collapsed="true">
+    <Position X="11.25" Y="5.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAACAAAAABASAAAAAAAAACIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Policy\ObligationElementReadWrite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.ObligationReadWriteCollection" Collapsed="true">
+    <Position X="0.5" Y="18.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAABAAAAAAAAAAAAAAAAAACAAAAABAAAA=</HashCode>
+      <FileName>Policy\ObligationReadWriteCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.PolicyCombinerParameterElement" Collapsed="true">
+    <Position X="120" Y="7.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAIAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Policy\PolicyCombinerParameterElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.PolicyDocument" Collapsed="true">
+    <Position X="17.75" Y="18.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAEAAAAAAAAAAAIAAAAAAAEAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Policy\PolicyDocument.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.PolicyDocumentReadWrite" Collapsed="true">
+    <Position X="17.5" Y="17.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>YIAABAEAAAAAABAAAAIACAAAAAMAACgAABAAAARAAAg=</HashCode>
+      <FileName>Policy\PolicyDocumentReadWrite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.PolicyElement" Collapsed="true">
+    <Position X="46.5" Y="7.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgACAAAAAAAiAAACAAAAACAAAAEgEAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Policy\PolicyElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.PolicyElementReadWrite" Collapsed="true">
+    <Position X="46.25" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgKCAACAAAAiABAWAABAACAIQAEgEAAAIQABAAAAAAA=</HashCode>
+      <FileName>Policy\PolicyElementReadWrite.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Xacml.Core.Policy.PolicyIdReferenceElement" Collapsed="true">
+    <Position X="51.5" Y="7.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAgAAAAAAAEAAAAAEAAAAAAA=</HashCode>
+      <FileName>Policy\PolicyIdReferenceElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.PolicyIdReferenceElementReadWrite" Collapsed="true">
+    <Position X="51.25" Y="5.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAACAAAAAAIBAQAAAAAgAAAAAAAEAAIAAEAAAAAAA=</HashCode>
+      <FileName>Policy\PolicyIdReferenceElementReadWrite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.PolicySetCombinerParameterElement" Collapsed="true">
+    <Position X="123.25" Y="7.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAQBAAAAAAAAAAA=</HashCode>
+      <FileName>Policy\PolicySetCombinerParameterElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.PolicySetElement" Collapsed="true">
+    <Position X="91" Y="7.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgAAAAAgAAACAAAAAgAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Policy\PolicySetElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.PolicySetElementReadWrite" Collapsed="true">
+    <Position X="90.75" Y="5.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAKCAABAAAAgABAUAoBAACAIQAAgAAAQIAAAAAAAAAE=</HashCode>
+      <FileName>Policy\PolicySetElementReadWrite.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Xacml.Core.Policy.PolicySetIdReferenceElement" Collapsed="true">
+    <Position X="130.25" Y="7.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAgAABAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Policy\PolicySetIdReferenceElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.PolicySetIdReferenceElementReadWrite" Collapsed="true">
+    <Position X="130" Y="5.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAIBAQAAAAEgAABAAAAEAAIAAEAAAAAAA=</HashCode>
+      <FileName>Policy\PolicySetIdReferenceElementReadWrite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.RuleCollection" Collapsed="true">
+    <Position X="14.5" Y="19" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAABAAAA=</HashCode>
+      <FileName>Policy\RuleCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.RuleCombinerParameterElement" Collapsed="true">
+    <Position X="126.75" Y="7.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAQAAAAAAAAQAAA=</HashCode>
+      <FileName>Policy\RuleCombinerParameterElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.RuleElement" Collapsed="true">
+    <Position X="151.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAigAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Policy\RuleElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.RuleElementReadWrite" Collapsed="true">
+    <Position X="151" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAikAAAUAABAACAAQAgAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Policy\RuleElementReadWrite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.RuleReadWriteCollection" Collapsed="true">
+    <Position X="14.5" Y="17.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAABAQAAAAAAAAAAAAAAAACAAAAABAAAA=</HashCode>
+      <FileName>Policy\RuleReadWriteCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.StringValueBase" Collapsed="true">
+    <Position X="162.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAACAQAAAAAAAAAAMAAFAgAAAAAAA=</HashCode>
+      <FileName>Policy\StringValueBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Xacml.Core.Policy.TargetElement" Collapsed="true">
+    <Position X="170.25" Y="7.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEACIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Policy\TargetElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.TargetElementReadWrite" Collapsed="true">
+    <Position X="170" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEACIgAEABAQAAAAAAAAACAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Policy\TargetElementReadWrite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.ActionAttributeDesignatorElement" Collapsed="true">
+    <Position X="54.75" Y="8.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Policy\TargetItems\ActionAttributeDesignatorElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.ActionElement" Collapsed="true">
+    <Position X="30.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Policy\TargetItems\ActionElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.ActionElementReadWrite" Collapsed="true">
+    <Position X="28" Y="7.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Policy\TargetItems\ActionElementReadWrite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.ActionMatchElement" Collapsed="true">
+    <Position X="106.25" Y="8.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Policy\TargetItems\ActionMatchElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.ActionMatchElementReadWrite" Collapsed="true">
+    <Position X="97" Y="7.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Policy\TargetItems\ActionMatchElementReadWrite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.ActionsElement" Collapsed="true">
+    <Position X="74.75" Y="8.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Policy\TargetItems\ActionsElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.ActionsElementReadWrite" Collapsed="true">
+    <Position X="74.5" Y="7.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAQAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Policy\TargetItems\ActionsElementReadWrite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.EnvironmentAttributeDesignatorElement" Collapsed="true">
+    <Position X="58" Y="8.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Policy\TargetItems\EnvironmentAttributeDesignatorElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.EnvironmentElement" Collapsed="true">
+    <Position X="33" Y="8.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Policy\TargetItems\EnvironmentElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.EnvironmentElementReadWrite" Collapsed="true">
+    <Position X="40" Y="7.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Policy\TargetItems\EnvironmentElementReadWrite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.EnvironmentMatchElement" Collapsed="true">
+    <Position X="108.75" Y="8.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Policy\TargetItems\EnvironmentMatchElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.EnvironmentMatchElementReadWrite" Collapsed="true">
+    <Position X="100.25" Y="7.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Policy\TargetItems\EnvironmentMatchElementReadWrite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.EnvironmentsElement" Collapsed="true">
+    <Position X="80" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Policy\TargetItems\EnvironmentsElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.EnvironmentsElementReadWrite" Collapsed="true">
+    <Position X="79.75" Y="7.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAQAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Policy\TargetItems\EnvironmentsElementReadWrite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.ResourceAttributeDesignatorElement" Collapsed="true">
+    <Position X="61.75" Y="8.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Policy\TargetItems\ResourceAttributeDesignatorElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.ResourceElement" Collapsed="true">
+    <Position X="35.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Policy\TargetItems\ResourceElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.ResourceElementReadWrite" Collapsed="true">
+    <Position X="43.25" Y="7.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Policy\TargetItems\ResourceElementReadWrite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.ResourceMatchElement" Collapsed="true">
+    <Position X="111.75" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Policy\TargetItems\ResourceMatchElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.ResourceMatchElementReadWrite" Collapsed="true">
+    <Position X="114.5" Y="7.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Policy\TargetItems\ResourceMatchElementReadWrite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.ResourcesElement" Collapsed="true">
+    <Position X="83.25" Y="8.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Policy\TargetItems\ResourcesElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.ResourcesElementReadWrite" Collapsed="true">
+    <Position X="83" Y="7.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAQAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Policy\TargetItems\ResourcesElementReadWrite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.SubjectAttributeDesignatorElement" Collapsed="true">
+    <Position X="65.25" Y="8.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAABAQAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Policy\TargetItems\SubjectAttributeDesignatorElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.SubjectElement" Collapsed="true">
+    <Position X="37.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Policy\TargetItems\SubjectElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.SubjectElementReadWrite" Collapsed="true">
+    <Position X="25.25" Y="7.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Policy\TargetItems\SubjectElementReadWrite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.SubjectMatchElement" Collapsed="true">
+    <Position X="103.75" Y="8.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Policy\TargetItems\SubjectMatchElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.SubjectMatchElementReadWrite" Collapsed="true">
+    <Position X="93.75" Y="7.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Policy\TargetItems\SubjectMatchElementReadWrite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.SubjectsElement" Collapsed="true">
+    <Position X="71.75" Y="8.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Policy\TargetItems\SubjectsElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.SubjectsElementReadWrite" Collapsed="true">
+    <Position X="71.5" Y="7.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAQAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Policy\TargetItems\SubjectsElementReadWrite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.TargetItemBase" Collapsed="true">
+    <Position X="34.25" Y="7.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Policy\TargetItems\TargetItemBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.TargetItemBaseReadWrite" Collapsed="true">
+    <Position X="34.5" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAgAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Policy\TargetItems\TargetItemBaseReadWrite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.TargetItemCollection" Collapsed="true">
+    <Position X="10.75" Y="19" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAABAAAA=</HashCode>
+      <FileName>Policy\TargetItems\TargetItemCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.TargetItemReadWriteCollection" Collapsed="true">
+    <Position X="10.5" Y="17.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAABAAAA=</HashCode>
+      <FileName>Policy\TargetItems\TargetItemReadWriteCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.TargetItemsBase" Collapsed="true">
+    <Position X="77.25" Y="7.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Policy\TargetItems\TargetItemsBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.TargetItemsBaseReadWrite" Collapsed="true">
+    <Position X="77.25" Y="5.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAIAAAAAACAEAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Policy\TargetItems\TargetItemsBaseReadWrite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.TargetMatchBase" Collapsed="true">
+    <Position X="108" Y="7.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAEAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Policy\TargetItems\TargetMatchBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.TargetMatchBaseReadWrite" Collapsed="true">
+    <Position X="104.25" Y="5.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAAAAAAAAAAAABAAAAAAAkAAAAAAEAAAAAIAAA=</HashCode>
+      <FileName>Policy\TargetItems\TargetMatchBaseReadWrite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.TargetMatchCollection" Collapsed="true">
+    <Position X="17.75" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAACAAAAAAAAAAAAAAACAAAAABAAAA=</HashCode>
+      <FileName>Policy\TargetItems\TargetMatchCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.TargetMatchReadWriteCollection" Collapsed="true">
+    <Position X="17.5" Y="10.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAACAAAAAAAAAAAAAAACAAAAABAAAA=</HashCode>
+      <FileName>Policy\TargetItems\TargetMatchReadWriteCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.VariableDefinitionElement" Collapsed="true">
+    <Position X="133.75" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAABAQAABAAAAAAAAAAAAQAAAAgAAAAAA=</HashCode>
+      <FileName>Policy\VariableDefinitionElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Policy.VariableReferenceElement" Collapsed="true">
+    <Position X="136.5" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>CAAAAABAAAAAABAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Policy\VariableReferenceElement.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.ActionTargetItems" Collapsed="true">
+    <Position X="3.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\ActionTargetItems.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Apply" Collapsed="true">
+    <Position X="0.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Apply.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.ApplyBase" Collapsed="true">
+    <Position X="1.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Runtime\ApplyBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.BagValue" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="598.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAIQABAAAAAAAACIQAAAAAAAAAAEAAFAAAAAAAAA=</HashCode>
+      <FileName>Runtime\BagValue.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Condition" Collapsed="true">
+    <Position X="2.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Condition.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Condition2" Collapsed="true">
+    <Position X="2.75" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Condition2.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.DataTypeDescriptor" Collapsed="true">
+    <Position X="609" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wEAACIAQCQggQHAARAgEADKAAAACAgQBAAQAAAEDAQM=</HashCode>
+      <FileName>Runtime\DataTypes\DataTypeDescriptor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.EvaluationContext" Collapsed="true">
+    <Position X="600.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAgIQAAAEAAAAQACMAASAAQAAggBAJBIASBAAQCQA=</HashCode>
+      <FileName>Runtime\EvaluationContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.EvaluationEngine" Collapsed="true">
+    <Position X="602" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAggAQAACAQAAAACAAAgIAAAQAAAICAAgAAAAAAAA=</HashCode>
+      <FileName>Runtime\EvaluationEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.EvaluationValue" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="605.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABACBIQAAACAIAAEADASAAAAAAAAAAEAAFggAAAQAAA=</HashCode>
+      <FileName>Runtime\EvaluationValue.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.IFunctionParameterCollection" Collapsed="true">
+    <Position X="612.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Runtime\IFunctionParameterCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.IMatchEvaluableCollection" Collapsed="true">
+    <Position X="614.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\IMatchEvaluableCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Policy" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="609" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAABAAAAAAAAADgAIUAAAIAAAIAABAgAAAAA=</HashCode>
+      <FileName>Runtime\Policy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.PolicyCombiningAlgorithmDenyOverrides" Collapsed="true">
+    <Position X="5.75" Y="17.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\PolicyCombiningAlgorithmDenyOverrides.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.PolicyCombiningAlgorithmFirstApplicable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="610.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\PolicyCombiningAlgorithmFirstApplicable.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.PolicyCombiningAlgorithmOnlyOneApplicable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="612.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\PolicyCombiningAlgorithmOnlyOneApplicable.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.PolicyCombiningAlgorithmOrderedDenyOverrides" Collapsed="true">
+    <Position X="5.5" Y="18.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\PolicyCombiningAlgorithmOrderedDenyOverrides.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.PolicyCombiningAlgorithmOrderedPermitOverrides" Collapsed="true">
+    <Position X="16.5" Y="15.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\PolicyCombiningAlgorithmOrderedPermitOverrides.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.PolicyCombiningAlgorithmPermitOverrides" Collapsed="true">
+    <Position X="16.75" Y="14.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\PolicyCombiningAlgorithmPermitOverrides.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.PolicySet" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="605.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABgAAAABAAAgABAAABgAIQAAAIAAQIAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\PolicySet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.ResourceTargetItems" Collapsed="true">
+    <Position X="5.5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\ResourceTargetItems.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Rule" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="609" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAABAAAAAAAAABgAAYAgAIAAAAAABAAAAAAA=</HashCode>
+      <FileName>Runtime\Rule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.RuleCollection" Collapsed="true">
+    <Position X="610.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\RuleCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.RuleCombiningAlgorithmDenyOverrides" Collapsed="true">
+    <Position X="0.75" Y="15.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\RuleCombiningAlgorithmDenyOverrides.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.RuleCombiningAlgorithmFirstApplicable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="612.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\RuleCombiningAlgorithmFirstApplicable.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.RuleCombiningAlgorithmOrderedDenyOverrides" Collapsed="true">
+    <Position X="0.5" Y="16.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\RuleCombiningAlgorithmOrderedDenyOverrides.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.RuleCombiningAlgorithmOrderedPermitOverrides" Collapsed="true">
+    <Position X="11.5" Y="15.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\RuleCombiningAlgorithmOrderedPermitOverrides.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.RuleCombiningAlgorithmPermitOverrides" Collapsed="true">
+    <Position X="11.75" Y="14.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\RuleCombiningAlgorithmPermitOverrides.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.SubjectTargetItems" Collapsed="true">
+    <Position X="0.75" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\SubjectTargetItems.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Target" Collapsed="true">
+    <Position X="610.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAgAAQCAAJAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Target.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.TargetItems" Collapsed="true">
+    <Position X="3.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAgAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\TargetItems.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.VariableDefinition" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="614.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAhIAAACAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Runtime\VariableDefinition.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.DataTypes.AnyUri" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="602" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAAAAAAgAABAAIAAAAAAAAAgAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Runtime\DataTypes\AnyUri.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.DataTypes.Bag" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="614.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAAAAAAgAAAAAIAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Runtime\DataTypes\Bag.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.DataTypes.Base64Binary" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="600.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJAgAAAAAAAAgAAAgAIAAAAAAAAAAIAAAAIAAAAAAAA=</HashCode>
+      <FileName>Runtime\DataTypes\Base64Binary.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.DataTypes.BooleanDataType" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="602" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAAAAAAgAAAAAIAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Runtime\DataTypes\BooleanDataType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.DataTypes.DateDataType" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="610.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAAAAAAgAAAAAIAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Runtime\DataTypes\DateDataType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.DataTypes.DateTime" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="612.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAAAAAAgAAAAAIAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Runtime\DataTypes\DateTime.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.DataTypes.DaytimeDuration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="614.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYAgAAACAAAQkAAAwAIAAAAEAAAAAIAAQAMBIgCAAAA=</HashCode>
+      <FileName>Runtime\DataTypes\DayTimeDuration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.DataTypes.DnsNameDataType" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="609" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJAgIAAAAAAAgAAAgAIAAAAAAAAAAoAAAAIAAAAAAAA=</HashCode>
+      <FileName>Runtime\DataTypes\DnsNameDataType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.DataTypes.DoubleDataType" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="610.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAAAAAAgAAAAAIAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Runtime\DataTypes\DoubleDataType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.DataTypes.FunctionDataType" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="607.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAAAAAAgAAAAAIAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Runtime\DataTypes\FunctionDataType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.DataTypes.HexBinary" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="610.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJAgAAAAAAAAgAAAgAIAAAAAAAAAAIAAAAIAAAAAAAA=</HashCode>
+      <FileName>Runtime\DataTypes\HexBinary.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.DataTypes.IntegerDataType" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="598.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAAAAAAgAAAAAIAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Runtime\DataTypes\IntegerDataType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.DataTypes.IPAddress" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="600.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJAgAAAAAAAAgAAAgAMAAAAAAAAAAIAAAAIAAAAAAAA=</HashCode>
+      <FileName>Runtime\DataTypes\IPAddressDataType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.DataTypes.Rfc822Name" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="607.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJAgAAAEAAAAgAAAgAIAAAIAAAAAAICAAAIAAAAAAAA=</HashCode>
+      <FileName>Runtime\DataTypes\Rfc822Name.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.DataTypes.StringDataType" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="603.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAAAAAAgAAAAAIAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Runtime\DataTypes\StringDataType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.DataTypes.Time" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="612.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAAAAAAgAAAAAIAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Runtime\DataTypes\Time.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.DataTypes.X500Name" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="603.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJAwIAAAAAAAgAgAgAIAAAAAAAAAAIAAAAIAAAAAAAA=</HashCode>
+      <FileName>Runtime\DataTypes\X500Name.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.DataTypes.YearMonthDuration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="605.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYAgAAAAAAAAkAAAgAIAAAIAAAAAIIAEAAMIAAAAAAA=</HashCode>
+      <FileName>Runtime\DataTypes\YearMonthDuration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.AllOf" Collapsed="true">
+    <Position X="42.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAgAAAAAAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\AllTypes\AllOf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.AllOfAll" Collapsed="true">
+    <Position X="44.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAgAAAAAAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\AllTypes\AllOfAll.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.AllOfAny" Collapsed="true">
+    <Position X="46.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAgAAAAAAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\AllTypes\AllOfAny.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.AnyOf" Collapsed="true">
+    <Position X="49" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAgAAAAAAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\AllTypes\AnyOf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.AnyOfAll" Collapsed="true">
+    <Position X="51.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAgAAAAAAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\AllTypes\AnyOfAll.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.AnyOfAny" Collapsed="true">
+    <Position X="53.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAgAAAAAAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\AllTypes\AnyOfAny.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.MapFunction" Collapsed="true">
+    <Position X="58" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAgAAAAAAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\AllTypes\MapFunction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.NofFunction" Collapsed="true">
+    <Position X="64.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAIAAAgAAAAAAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\AllTypes\NofFunction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.AnyUriAtLeastOneMemberOf" Collapsed="true">
+    <Position X="89.25" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\AnyUri\AnyUriAtLeastOneMemberOf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.AnyUriBag" Collapsed="true">
+    <Position X="143" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\AnyUri\AnyUriBag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.AnyUriBagSize" Collapsed="true">
+    <Position X="185.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\AnyUri\AnyUriBagSize.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.AnyUriEqual" Collapsed="true">
+    <Position X="259.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\AnyUri\AnyUriEqual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.AnyUriIntersection" Collapsed="true">
+    <Position X="334.25" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\AnyUri\AnyUriIntersection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.AnyUriIsIn" Collapsed="true">
+    <Position X="377.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\AnyUri\AnyUriIsIn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.AnyUriOneAndOnly" Collapsed="true">
+    <Position X="443.5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\AnyUri\AnyUriOneAndOnly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.AnyUriRegexpMatch" Collapsed="true">
+    <Position X="583.25" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\AnyUri\AnyUriRegexpMatch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.AnyUriSetEquals" Collapsed="true">
+    <Position X="485.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\AnyUri\AnyUriSetEquals.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.AnyUriSubset" Collapsed="true">
+    <Position X="525.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\AnyUri\AnyUriSubset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.AnyUriUnion" Collapsed="true">
+    <Position X="560.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\AnyUri\AnyUriUnion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.UrlStringConcatenate" Collapsed="true">
+    <Position X="588.5" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAIAAAgAAAAAAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\AnyUri\UrlStringConcatenate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.Base64BinaryAtLeastOneMemberOf" Collapsed="true">
+    <Position X="67" Y="3.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Base64Binary\Base64BinaryAtLeastOneMemberOf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.Base64BinaryBag" Collapsed="true">
+    <Position X="127" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Base64Binary\Base64BinaryBag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.Base64BinaryBagSize" Collapsed="true">
+    <Position X="169.25" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Base64Binary\Base64BinaryBagSize.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.Base64BinaryEqual" Collapsed="true">
+    <Position X="216.5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Base64Binary\Base64BinaryEqual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.Base64BinaryIntersection" Collapsed="true">
+    <Position X="316.5" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Base64Binary\Base64BinaryIntersection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.Base64BinaryIsIn" Collapsed="true">
+    <Position X="361.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Base64Binary\Base64BinaryIsIn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.Base64BinaryOneAndOnly" Collapsed="true">
+    <Position X="422.5" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Base64Binary\Base64BinaryOneAndOnly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.Base64BinarySetEquals" Collapsed="true">
+    <Position X="465.5" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Base64Binary\Base64BinarySetEquals.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.Base64BinarySubset" Collapsed="true">
+    <Position X="506.5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Base64Binary\Base64BinarySubset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.Base64BinaryUnion" Collapsed="true">
+    <Position X="541.75" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Base64Binary\Base64BinaryUnion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.BaseAtLeastOneMemberOf" Collapsed="true">
+    <Position X="91" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAgAAAAAAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\BaseAtLeastOneMemberOf.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.BaseBag" Collapsed="true">
+    <Position X="139.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAIAAAgAAAAAAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\BaseBag.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.BaseBagSize" Collapsed="true">
+    <Position X="182.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\BaseBagSize.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.BaseEqual" Collapsed="true">
+    <Position X="254.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\BaseEqual.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.BaseIntersection" Collapsed="true">
+    <Position X="328" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAgAAAAAAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\BaseIntersection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.BaseIsIn" Collapsed="true">
+    <Position X="371.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAgAAAAAAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\BaseIsIn.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.BaseMathOperation" Collapsed="true">
+    <Position X="402" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\BaseMathOperation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.BaseOneAndOnly" Collapsed="true">
+    <Position X="432" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAgAAAAAAAAAAIBgAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\BaseOneAndOnly.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.BaseSetEquals" Collapsed="true">
+    <Position X="472.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAgAAAAAAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\BaseSetEquals.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.BaseSubset" Collapsed="true">
+    <Position X="510.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAgAAAAAAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\BaseSubset.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.BaseUnion" Collapsed="true">
+    <Position X="548.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAgAAAAAAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\BaseUnion.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.AndFunction" Collapsed="true">
+    <Position X="570.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAgAAAAAAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Boolean\AndFunction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.BooleanAtLeastOneMemberOf" Collapsed="true">
+    <Position X="111.5" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Boolean\BooleanAtLeastOneMemberOf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.BooleanBag" Collapsed="true">
+    <Position X="122.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Boolean\BooleanBag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.BooleanBagSize" Collapsed="true">
+    <Position X="164.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Boolean\BooleanBagSize.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.BooleanEqual" Collapsed="true">
+    <Position X="212" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Boolean\BooleanEqual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.BooleanIntersection" Collapsed="true">
+    <Position X="311.25" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Boolean\BooleanIntersection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.BooleanIsIn" Collapsed="true">
+    <Position X="356.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Boolean\BooleanIsIn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.BooleanOneAndOnly" Collapsed="true">
+    <Position X="420" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Boolean\BooleanOneAndOnly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.BooleanSetEquals" Collapsed="true">
+    <Position X="460.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Boolean\BooleanSetEquals.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.BooleanSubset" Collapsed="true">
+    <Position X="502" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Boolean\BooleanSubset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.BooleanUnion" Collapsed="true">
+    <Position X="537.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Boolean\BooleanUnion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.NotFunction" Collapsed="true">
+    <Position X="60.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAgAAAAAAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Boolean\NotFunction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.OrFunction" Collapsed="true">
+    <Position X="118" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAgAAAAAAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Boolean\OrFunction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DateAddYearMonthDuration" Collapsed="true">
+    <Position X="159.25" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAgAAAAAAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Date\DateAddYearMonthDuration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DateAtLeastOneMemberOf" Collapsed="true">
+    <Position X="95.25" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Date\DateAtLeastOneMemberOf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DateBag" Collapsed="true">
+    <Position X="147.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Date\DateBag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DateBagSize" Collapsed="true">
+    <Position X="190.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Date\DateBagSize.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DateEqual" Collapsed="true">
+    <Position X="266.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Date\DateEqual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DateGreaterThan" Collapsed="true">
+    <Position X="276.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Date\DateGreaterThan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DateGreaterThanOrEqual" Collapsed="true">
+    <Position X="281" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Date\DateGreaterThanOrEqual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DateIntersection" Collapsed="true">
+    <Position X="340" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Date\DateIntersection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DateIsIn" Collapsed="true">
+    <Position X="382.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Date\DateIsIn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DateLessThan" Collapsed="true">
+    <Position X="293.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Date\DateLessThan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DateLessThanOrEqual" Collapsed="true">
+    <Position X="301" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Date\DateLessThanOrEqual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DateOneAndOnly" Collapsed="true">
+    <Position X="451.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Date\DateOneAndOnly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DateSetEquals" Collapsed="true">
+    <Position X="454" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Date\DateSetEquals.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DateSubset" Collapsed="true">
+    <Position X="495.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Date\DateSubset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DateSubtractYearMonthDuration" Collapsed="true">
+    <Position X="36.75" Y="1.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAgAAAAAAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Date\DateSubtractYearMonthDuration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DateUnion" Collapsed="true">
+    <Position X="532.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Date\DateUnion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DaytimeDurationAtLeastOneMemberOf" Collapsed="true">
+    <Position X="76.25" Y="3.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\DayTimeDuration\DayTimeDurationAtLeastOneMemberOf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DaytimeDurationBag" Collapsed="true">
+    <Position X="133.75" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\DayTimeDuration\DayTimeDurationBag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DaytimeDurationBagSize" Collapsed="true">
+    <Position X="176.25" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\DayTimeDuration\DayTimeDurationBagSize.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DaytimeDurationEqual" Collapsed="true">
+    <Position X="233" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\DayTimeDuration\DayTimeDurationEqual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DaytimeDurationIntersection" Collapsed="true">
+    <Position X="324" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\DayTimeDuration\DayTimeDurationIntersection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DaytimeDurationIsIn" Collapsed="true">
+    <Position X="368" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\DayTimeDuration\DayTimeDurationIsIn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DaytimeDurationOneAndOnly" Collapsed="true">
+    <Position X="430.75" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\DayTimeDuration\DayTimeDurationOneAndOnly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DaytimeDurationSetEquals" Collapsed="true">
+    <Position X="473.25" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\DayTimeDuration\DayTimeDurationSetEquals.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DaytimeDurationSubset" Collapsed="true">
+    <Position X="513.75" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\DayTimeDuration\DayTimeDurationSubset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DaytimeDurationUnion" Collapsed="true">
+    <Position X="551.25" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\DayTimeDuration\DayTimeDurationUnion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DnsNameAtLeastOneMemberOf" Collapsed="true">
+    <Position X="102" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\DnsName\DnsNameAtLeastOneMemberOf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DnsNameBag" Collapsed="true">
+    <Position X="152.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\DnsName\DnsNameBag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DnsNameBagSize" Collapsed="true">
+    <Position X="195.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\DnsName\DnsNameBagSize.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DnsNameEqual" Collapsed="true">
+    <Position X="283.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\DnsName\DnsNameEqual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DnsNameIntersection" Collapsed="true">
+    <Position X="342.25" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\DnsName\DnsNameIntersection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DnsNameIsIn" Collapsed="true">
+    <Position X="384.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\DnsName\DnsNameIsIn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DnsNameOneAndOnly" Collapsed="true">
+    <Position X="449.25" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\DnsName\DnsNameOneAndOnly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DnsNameRegexpMatch" Collapsed="true">
+    <Position X="585.75" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\DnsName\DnsNameRegexpMatch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DnsNameSetEquals" Collapsed="true">
+    <Position X="490.5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\DnsName\DnsNameSetEquals.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DnsNameSubset" Collapsed="true">
+    <Position X="493" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\DnsName\DnsNameSubset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DnsNameUnion" Collapsed="true">
+    <Position X="530.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\DnsName\DnsNameUnion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DoubleAbs" Collapsed="true">
+    <Position X="40" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAgAAAAAAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Double\DoubleAbs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DoubleAdd" Collapsed="true">
+    <Position X="396.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAIAAAgAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Double\DoubleAdd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DoubleAtLeastOneMemberOf" Collapsed="true">
+    <Position X="80" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Double\DoubleAtLeastOneMemberOf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DoubleBag" Collapsed="true">
+    <Position X="136.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Double\DoubleBag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DoubleBagSize" Collapsed="true">
+    <Position X="179" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Double\DoubleBagSize.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DoubleDivide" Collapsed="true">
+    <Position X="401" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Double\DoubleDivide.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DoubleEqual" Collapsed="true">
+    <Position X="235.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Double\DoubleEqual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DoubleGreaterThan" Collapsed="true">
+    <Position X="237.75" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Double\DoubleGreaterThan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DoubleGreaterThanOrEqual" Collapsed="true">
+    <Position X="244.75" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Double\DoubleGreaterThanOrEqual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DoubleIntersection" Collapsed="true">
+    <Position X="327" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Double\DoubleIntersection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DoubleIsIn" Collapsed="true">
+    <Position X="370.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Double\DoubleIsIn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DoubleLessThan" Collapsed="true">
+    <Position X="255" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Double\DoubleLessThan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DoubleLessThanOrEqual" Collapsed="true">
+    <Position X="261.75" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Double\DoubleLessThanOrEqual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DoubleMultiply" Collapsed="true">
+    <Position X="405.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Double\DoubleMultiply.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DoubleOneAndOnly" Collapsed="true">
+    <Position X="436" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Double\DoubleOneAndOnly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DoubleSetEquals" Collapsed="true">
+    <Position X="478.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Double\DoubleSetEquals.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DoubleSubset" Collapsed="true">
+    <Position X="518.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Double\DoubleSubset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DoubleSubtract" Collapsed="true">
+    <Position X="410" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Double\DoubleSubtract.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DoubleToInteger" Collapsed="true">
+    <Position X="568" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAgAAAAAAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Double\DoubleToInteger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DoubleUnion" Collapsed="true">
+    <Position X="563" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Double\DoubleUnion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.Floor" Collapsed="true">
+    <Position X="591" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAgAAAAAAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Double\Floor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.Round" Collapsed="true">
+    <Position X="28.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAgAAAAAAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Double\Round.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.FunctionBase" Collapsed="true">
+    <Position X="312.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgADAAQAgIAAAAAAALAQAggAAAgAABEBIFgBlQgAAAE=</HashCode>
+      <FileName>Runtime\Functions\FunctionBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.HexBinaryAtLeastOneMemberOf" Collapsed="true">
+    <Position X="73" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\HexBinary\HexBinaryAtLeastOneMemberOf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.HexBinaryBag" Collapsed="true">
+    <Position X="131.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\HexBinary\HexBinaryBag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.HexBinaryBagSize" Collapsed="true">
+    <Position X="174" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\HexBinary\HexBinaryBagSize.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.HexBinaryEqual" Collapsed="true">
+    <Position X="223.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\HexBinary\HexBinaryEqual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.HexBinaryIntersection" Collapsed="true">
+    <Position X="319.25" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\HexBinary\HexBinaryIntersection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.HexBinaryIsIn" Collapsed="true">
+    <Position X="363.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\HexBinary\HexBinaryIsIn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.HexBinaryOneAndOnly" Collapsed="true">
+    <Position X="428" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\HexBinary\HexBinaryOneAndOnly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.HexBinarySetEquals" Collapsed="true">
+    <Position X="470.75" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\HexBinary\HexBinarySetEquals.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.HexBinarySubset" Collapsed="true">
+    <Position X="511.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\HexBinary\HexBinarySubset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.HexBinaryUnion" Collapsed="true">
+    <Position X="549" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\HexBinary\HexBinaryUnion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.IntegerAbs" Collapsed="true">
+    <Position X="202.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAgAAAAAAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Integer\IntegerAbs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.IntegerAdd" Collapsed="true">
+    <Position X="306.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAIAAAgAAAAAAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Integer\IntegerAdd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.IntegerAtLeastOneMemberOf" Collapsed="true">
+    <Position X="105.25" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Integer\IntegerAtLeastOneMemberOf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.IntegerBag" Collapsed="true">
+    <Position X="154.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Integer\IntegerBag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.IntegerBagSize" Collapsed="true">
+    <Position X="197.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Integer\IntegerBagSize.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.IntegerDivide" Collapsed="true">
+    <Position X="407.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Integer\IntegerDivide.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.IntegerEqual" Collapsed="true">
+    <Position X="288.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Integer\IntegerEqual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.IntegerGreaterThan" Collapsed="true">
+    <Position X="291" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Integer\IntegerGreaterThan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.IntegerGreaterThanOrEqual" Collapsed="true">
+    <Position X="295.75" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Integer\IntegerGreaterThanOrEqual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.IntegerIntersection" Collapsed="true">
+    <Position X="347" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Integer\IntegerIntersection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.IntegerIsIn" Collapsed="true">
+    <Position X="389" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Integer\IntegerIsIn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.IntegerLessThan" Collapsed="true">
+    <Position X="204.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Integer\IntegerLessThan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.IntegerLessThanOrEqual" Collapsed="true">
+    <Position X="209.25" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Integer\IntegerLessThanOrEqual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.IntegerMod" Collapsed="true">
+    <Position X="394.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Integer\IntegerMod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.IntegerMultiply" Collapsed="true">
+    <Position X="398.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Integer\IntegerMultiply.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.IntegerOneAndOnly" Collapsed="true">
+    <Position X="414.75" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Integer\IntegerOneAndOnly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.IntegerSetEquals" Collapsed="true">
+    <Position X="458.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Integer\IntegerSetEquals.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.IntegerSubset" Collapsed="true">
+    <Position X="499.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Integer\IntegerSubset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.IntegerSubtract" Collapsed="true">
+    <Position X="403.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Integer\IntegerSubtract.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.IntegerToDouble" Collapsed="true">
+    <Position X="55.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAgAAAAAAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Integer\IntegerToDouble.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.IntegerUnion" Collapsed="true">
+    <Position X="544.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Integer\IntegerUnion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.IPAddressAtLeastOneMemberOf" Collapsed="true">
+    <Position X="86" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\IPAddress\IPAddressAtLeastOneMemberOf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.IPAddressBag" Collapsed="true">
+    <Position X="140.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\IPAddress\IPAddressBag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.IPAddressBagSize" Collapsed="true">
+    <Position X="183.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\IPAddress\IPAddressBagSize.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.IPAddressEqual" Collapsed="true">
+    <Position X="257.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\IPAddress\IPAddressEqual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.IPAddressIntersection" Collapsed="true">
+    <Position X="331.75" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\IPAddress\IPAddressIntersection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.IPAddressIsIn" Collapsed="true">
+    <Position X="375" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\IPAddress\IPAddressIsIn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.IPAddressOneAndOnly" Collapsed="true">
+    <Position X="438.5" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\IPAddress\IPAddressOneAndOnly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.IPAddressRegexpMatch" Collapsed="true">
+    <Position X="580.5" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\IPAddress\IPAddressRegexpMatch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.IPAddressSetEquals" Collapsed="true">
+    <Position X="482.75" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\IPAddress\IPAddressSetEquals.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.IPAddressSubset" Collapsed="true">
+    <Position X="523.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\IPAddress\IPAddressSubset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.IPAddressUnion" Collapsed="true">
+    <Position X="558.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\IPAddress\IPAddressUnion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.RegexpMatchBase" Collapsed="true">
+    <Position X="579.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAIAAAAAAAAgAAAAAAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\RegexpMatchBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.Rfc822NameAtLeastOneMemberOf" Collapsed="true">
+    <Position X="114.5" Y="3.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Rfc822Name\Rfc822NameAtLeastOneMemberOf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.Rfc822NameBag" Collapsed="true">
+    <Position X="124.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Rfc822Name\Rfc822NameBag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.Rfc822NameBagSize" Collapsed="true">
+    <Position X="166.75" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Rfc822Name\Rfc822NameBagSize.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.Rfc822NameEqual" Collapsed="true">
+    <Position X="214.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Rfc822Name\Rfc822NameEqual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.Rfc822NameIntersection" Collapsed="true">
+    <Position X="313.75" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Rfc822Name\Rfc822NameIntersection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.Rfc822NameIsIn" Collapsed="true">
+    <Position X="359" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Rfc822Name\Rfc822NameIsIn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.Rfc822NameMatch" Collapsed="true">
+    <Position X="225.75" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Rfc822Name\Rfc822NameMatch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.Rfc822NameOneAndOnly" Collapsed="true">
+    <Position X="425.25" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Rfc822Name\Rfc822NameOneAndOnly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.Rfc822NameRegexpMatch" Collapsed="true">
+    <Position X="577.75" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Rfc822Name\Rfc822NameRegexpMatch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.Rfc822NameSetEquals" Collapsed="true">
+    <Position X="468.25" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Rfc822Name\Rfc822NameSetEquals.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.Rfc822NameSubset" Collapsed="true">
+    <Position X="509" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Rfc822Name\Rfc822NameSubset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.Rfc822NameUnion" Collapsed="true">
+    <Position X="546.5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Rfc822Name\Rfc822NameUnion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.StringAtLeastOneMemberOf" Collapsed="true">
+    <Position X="92.25" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\String\StringAtLeastOneMemberOf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.StringBag" Collapsed="true">
+    <Position X="145.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\String\StringBag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.StringBagSize" Collapsed="true">
+    <Position X="188" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\String\StringBagSize.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.StringConcatenate" Collapsed="true">
+    <Position X="349.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAIAAAgAAAAAAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\String\StringConcatenate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.StringEqual" Collapsed="true">
+    <Position X="269" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\String\StringEqual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.StringGreaterThan" Collapsed="true">
+    <Position X="278.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\String\StringGreaterThan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.StringGreaterThanOrEqual" Collapsed="true">
+    <Position X="286" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\String\StringGreaterThanOrEqual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.StringIntersection" Collapsed="true">
+    <Position X="344.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\String\StringIntersection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.StringIsIn" Collapsed="true">
+    <Position X="386.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\String\StringIsIn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.StringLessThan" Collapsed="true">
+    <Position X="298.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\String\StringLessThan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.StringLessThanOrEqual" Collapsed="true">
+    <Position X="303.5" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\String\StringLessThanOrEqual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.StringNormalizeSpace" Collapsed="true">
+    <Position X="593.25" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAgAAAAAAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\String\StringNormalizeSpace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.StringNormalizeToLowercase" Collapsed="true">
+    <Position X="31" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAgAAAAAAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\String\StringNormalizeToLowerCase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.StringOneAndOnly" Collapsed="true">
+    <Position X="412.25" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\String\StringOneAndOnly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.StringRegexpMatch" Collapsed="true">
+    <Position X="572.5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\String\StringRegexpMatch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.StringSetEquals" Collapsed="true">
+    <Position X="456.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\String\StringSetEquals.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.StringSubset" Collapsed="true">
+    <Position X="497.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\String\StringSubset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.StringUnion" Collapsed="true">
+    <Position X="535" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\String\StringUnion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.TimeAtLeastOneMemberOf" Collapsed="true">
+    <Position X="83" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Time\TimeAtLeastOneMemberOf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.TimeBag" Collapsed="true">
+    <Position X="138.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Time\TimeBag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.TimeBagSize" Collapsed="true">
+    <Position X="181.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Time\TimeBagSize.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.TimeEqual" Collapsed="true">
+    <Position X="240.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Time\TimeEqual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.TimeGreaterThan" Collapsed="true">
+    <Position X="247.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Time\TimeGreaterThan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.TimeGreaterThanOrEqual" Collapsed="true">
+    <Position X="252.25" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Time\TimeGreaterThanOrEqual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.TimeIntersection" Collapsed="true">
+    <Position X="329.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Time\TimeIntersection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.TimeIsIn" Collapsed="true">
+    <Position X="372.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Time\TimeIsIn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.TimeLessThan" Collapsed="true">
+    <Position X="264.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Time\TimeLessThan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.TimeLessThanOrEqual" Collapsed="true">
+    <Position X="271.25" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Time\TimeLessThanOrEqual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.TimeOneAndOnly" Collapsed="true">
+    <Position X="441.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Time\TimeOneAndOnly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.TimeSetEquals" Collapsed="true">
+    <Position X="480.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Time\TimeSetEquals.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.TimeSubset" Collapsed="true">
+    <Position X="521" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Time\TimeSubset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.TimeUnion" Collapsed="true">
+    <Position X="556.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\Time\TimeUnion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.X500NameAtLeastOneMemberOf" Collapsed="true">
+    <Position X="108.25" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\X500Name\X500NameAtLeastOneMemberOf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.X500NameBag" Collapsed="true">
+    <Position X="157" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\X500Name\X500NameBag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.X500NameBagSize" Collapsed="true">
+    <Position X="200" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\X500Name\X500NameBagSize.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.X500NameEqual" Collapsed="true">
+    <Position X="207" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\X500Name\X500NameEqual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.X500NameIntersection" Collapsed="true">
+    <Position X="308.5" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\X500Name\X500NameIntersection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.X500NameIsIn" Collapsed="true">
+    <Position X="354.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\X500Name\X500NameIsIn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.X500NameMatch" Collapsed="true">
+    <Position X="219" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\X500Name\X500NameMatch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.X500NameOneAndOnly" Collapsed="true">
+    <Position X="417.25" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\X500Name\X500NameOneAndOnly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.X500NameRegexpMatch" Collapsed="true">
+    <Position X="575" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\X500Name\X500NameRegexpMatch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.X500NameSetEquals" Collapsed="true">
+    <Position X="463" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\X500Name\X500NameSetEquals.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.X500NameSubset" Collapsed="true">
+    <Position X="504.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\X500Name\X500NameSubset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.X500NameUnion" Collapsed="true">
+    <Position X="539.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\X500Name\X500NameUnion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.XPathNodeCount" Collapsed="true">
+    <Position X="62.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAgAAAAAAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\XPath\XPathNodeCount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.XPathNodeEqual" Collapsed="true">
+    <Position X="120.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAgAAAAAAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\XPath\XPathNodeEqual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.XPathNodeMatch" Collapsed="true">
+    <Position X="162.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAgAAAAAAAIAAIAgAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\XPath\XPathNodeMatch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.YearMonthDurationAtLeastOneMemberOf" Collapsed="true">
+    <Position X="98.25" Y="3.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\YearMonthDuration\YearMonthDurationAtLeastOneMemberOf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.YearMonthDurationBag" Collapsed="true">
+    <Position X="149.75" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\YearMonthDuration\YearMonthDurationBag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.YearMonthDurationBagSize" Collapsed="true">
+    <Position X="192.5" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\YearMonthDuration\YearMonthDurationBagSize.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.YearMonthDurationEqual" Collapsed="true">
+    <Position X="273.75" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\YearMonthDuration\YearMonthDurationEqual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.YearMonthDurationIntersection" Collapsed="true">
+    <Position X="336.75" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\YearMonthDuration\YearMonthDurationIntersection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.YearMonthDurationIsIn" Collapsed="true">
+    <Position X="379.5" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\YearMonthDuration\YearMonthDurationIsIn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.YearMonthDurationOneAndOnly" Collapsed="true">
+    <Position X="446" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\YearMonthDuration\YearMonthDurationOneAndOnly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.YearMonthDurationSetEquals" Collapsed="true">
+    <Position X="487.5" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\YearMonthDuration\YearMonthDurationSetEquals.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.YearMonthDurationSubset" Collapsed="true">
+    <Position X="527.75" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\YearMonthDuration\YearMonthDurationSubset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.YearMonthDurationUnion" Collapsed="true">
+    <Position X="565.25" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\YearMonthDuration\YearMonthDurationUnion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DateTimeDataType.AddDaytimeDuration" Collapsed="true">
+    <Position X="595.75" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAgAAAAAAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\DateTime\DateTimeAddDayTimeDuration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DateTimeDataType.AddYearMonthDuration" Collapsed="true">
+    <Position X="34" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAgAAAAAAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\DateTime\DateTimeAddYearMonthDuration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DateTimeDataType.AtLeastOneMemberOf" Collapsed="true">
+    <Position X="70.5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\DateTime\DateTimeAtLeastOneMemberOf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DateTimeDataType.Bag" Collapsed="true">
+    <Position X="129.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\DateTime\DateTimeBag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DateTimeDataType.BagSize" Collapsed="true">
+    <Position X="171.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\DateTime\DateTimeBagSize.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DateTimeDataType.Equal" Collapsed="true">
+    <Position X="221.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\DateTime\DateTimeEqual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DateTimeDataType.GreaterThan" Collapsed="true">
+    <Position X="228.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\DateTime\DateTimeGreaterThan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DateTimeDataType.GreaterThanOrEqual" Collapsed="true">
+    <Position X="230.5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\DateTime\DateTimeGreaterThanOrEqual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DateTimeDataType.Intersection" Collapsed="true">
+    <Position X="321.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\DateTime\DateTimeIntersection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DateTimeDataType.IsIn" Collapsed="true">
+    <Position X="365.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\DateTime\DateTimeIsIn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DateTimeDataType.LessThan" Collapsed="true">
+    <Position X="242.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\DateTime\DateTimeLessThan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DateTimeDataType.LessThanOrEqual" Collapsed="true">
+    <Position X="250" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\DateTime\DateTimeLessThanOrEqual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DateTimeDataType.OneAndOnly" Collapsed="true">
+    <Position X="433.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\DateTime\DateTimeOneAndOnly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DateTimeDataType.SetEquals" Collapsed="true">
+    <Position X="476" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\DateTime\DateTimeSetEquals.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DateTimeDataType.Subset" Collapsed="true">
+    <Position X="516.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\DateTime\DateTimeSubset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DateTimeDataType.SubtractDaytimeDuration" Collapsed="true">
+    <Position X="351.75" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAgAAAAAAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\DateTime\DateTimeSubtractTimeDuration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DateTimeDataType.SubtractYearMonthDuration" Collapsed="true">
+    <Position X="391.25" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAgAAAAAAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\DateTime\DateTimeSubtractYearMonthDuration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.Core.Runtime.Functions.DateTimeDataType.Union" Collapsed="true">
+    <Position X="554" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\Functions\DateTime\DateTimeUnion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.ContextSchema.RequestElement" Collapsed="true">
+    <Position X="610.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACIAAAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Schemas\ContextSchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.ContextSchema.ResponseElement" Collapsed="true">
+    <Position X="602" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Schemas\ContextSchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.ContextSchema.AttributeElement" Collapsed="true">
+    <Position X="609" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAICAAAAAAAEAAAAAAEAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Schemas\ContextSchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.ContextSchema.ResourceElement" Collapsed="true">
+    <Position X="598.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Schemas\ContextSchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.ContextSchema.SubjectElement" Collapsed="true">
+    <Position X="607.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Schemas\ContextSchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.ContextSchema.ResultElement" Collapsed="true">
+    <Position X="605.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Schemas\ContextSchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.ContextSchema.StatusElement" Collapsed="true">
+    <Position X="602" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAEAAAAAAAAAAAAAAAAAAAAAAAAIAAgAIAAAAA=</HashCode>
+      <FileName>Schemas\ContextSchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.ContextSchema.EnvironmentAttributes" Collapsed="true">
+    <Position X="614.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAEAAAAgAAAAAA=</HashCode>
+      <FileName>Schemas\ContextSchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.ContextSchema.StatusCodes" Collapsed="true">
+    <Position X="600.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAACAAAEAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Schemas\ContextSchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.ContextSchema.ResourceScope" Collapsed="true">
+    <Position X="600.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAEAAAAAAAAAEAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Schemas\ContextSchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema1.Namespaces" Collapsed="true">
+    <Position X="603.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAIIAAAAAIAQAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Schemas\PolicySchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema1.TargetElement" Collapsed="true">
+    <Position X="14.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAIAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Schemas\PolicySchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema1.ApplyElement" Collapsed="true">
+    <Position X="603.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Schemas\PolicySchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema1.ObligationsElement" Collapsed="true">
+    <Position X="607.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Schemas\PolicySchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema1.PolicySetIdReferenceElement" Collapsed="true">
+    <Position X="609" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Schemas\PolicySchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema1.PolicyIdReferenceElement" Collapsed="true">
+    <Position X="600.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Schemas\PolicySchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema1.AttributeAssignmentElement" Collapsed="true">
+    <Position X="605.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Schemas\PolicySchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema1.VariableReferenceElement" Collapsed="true">
+    <Position X="600.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Schemas\PolicySchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema1.ObligationElement" Collapsed="true">
+    <Position X="5.5" Y="14.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAACAAAAAEAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Schemas\PolicySchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema1.FunctionElement" Collapsed="true">
+    <Position X="609" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Schemas\PolicySchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema1.ConditionElement" Collapsed="true">
+    <Position X="603.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Schemas\PolicySchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema1.AttributeValueElement" Collapsed="true">
+    <Position X="612.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Schemas\PolicySchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema1.AttributeSelectorElement" Collapsed="true">
+    <Position X="610.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAIAAAAQAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Schemas\PolicySchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema1.AttributeDesignatorElement" Collapsed="true">
+    <Position X="607.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAIAAAAQAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Schemas\PolicySchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema1.SubjectAttributeDesignatorElement" Collapsed="true">
+    <Position X="605.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Schemas\PolicySchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema1.ActionAttributeDesignatorElement" Collapsed="true">
+    <Position X="598.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Schemas\PolicySchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema1.ResourceAttributeDesignatorElement" Collapsed="true">
+    <Position X="614.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Schemas\PolicySchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema1.EnvironmentAttributeDesignatorElement" Collapsed="true">
+    <Position X="612.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Schemas\PolicySchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema1.PolicySetElement" Collapsed="true">
+    <Position X="11.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAACBAAAACAEIAAAAAAAAAA=</HashCode>
+      <FileName>Schemas\PolicySchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema1.PolicySetDefaultsElement" Collapsed="true">
+    <Position X="607.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Schemas\PolicySchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema1.PolicyElement" Collapsed="true">
+    <Position X="8.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEIAgAAAAAAIAAAAAAAAAAEAAIAAAAAAAAAA=</HashCode>
+      <FileName>Schemas\PolicySchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema1.PolicyDefaultsElement" Collapsed="true">
+    <Position X="598.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Schemas\PolicySchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema1.MatchElement" Collapsed="true">
+    <Position X="602" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Schemas\PolicySchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema1.SubjectElement" Collapsed="true">
+    <Position X="609" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgJIAEAAUCAAEAAAJQAACJQAQECAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Schemas\PolicySchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema1.ResourceElement" Collapsed="true">
+    <Position X="8.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAIQRAgCAAgAAAAAAAAAAAAAAAAAAEAAIAAAA=</HashCode>
+      <FileName>Schemas\PolicySchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema1.ActionElement" Collapsed="true">
+    <Position X="600.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAgCAgAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAgQ=</HashCode>
+      <FileName>Schemas\PolicySchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema1.RuleElement" Collapsed="true">
+    <Position X="14.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEigAAAAAAAAACAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Schemas\PolicySchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema1.RuleCombiningAlgorithms" Collapsed="true">
+    <Position X="614.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAgAAAAAQAEAAAAIAAAAA=</HashCode>
+      <FileName>Schemas\PolicySchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema1.PolicyCombiningAlgorithms" Collapsed="true">
+    <Position X="614.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAQAAAAAgAAAAAQAEAAAAIAAAAA=</HashCode>
+      <FileName>Schemas\PolicySchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema1.InternalFunctions" Collapsed="true">
+    <Position X="11.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YKPh9uZidRN9D+v6pP/wnL2L2LF/hLOsf766Xt5lpEU=</HashCode>
+      <FileName>Schemas\PolicySchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema1.InternalDataTypes" Collapsed="true">
+    <Position X="5.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYAAAIQAAAAAghAAAAAAACAAAEAAAEAAEAAAAAgAAAA=</HashCode>
+      <FileName>Schemas\PolicySchema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema2.Namespaces" Collapsed="true">
+    <Position X="605.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Schemas\PolicySchema2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema2.CombinerParameterElement" Collapsed="true">
+    <Position X="4.25" Y="8.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAEBAAAAAAAAAAAAA=</HashCode>
+      <FileName>Schemas\PolicySchema2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema2.PolicyCombinerParameterElement" Collapsed="true">
+    <Position X="0.75" Y="9.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Schemas\PolicySchema2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema2.PolicySetCombinerParameterElement" Collapsed="true">
+    <Position X="4" Y="9.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Schemas\PolicySchema2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema2.RuleCombinerParameterElement" Collapsed="true">
+    <Position X="7.5" Y="9.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Schemas\PolicySchema2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema2.TargetElement" Collapsed="true">
+    <Position X="14.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Schemas\PolicySchema2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema2.PolicyElement" Collapsed="true">
+    <Position X="8.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAEAAAAAAAAAAAAAAEAEAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Schemas\PolicySchema2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema2.RuleElement" Collapsed="true">
+    <Position X="14.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Schemas\PolicySchema2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema2.ObligationElement" Collapsed="true">
+    <Position X="5.5" Y="15.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Schemas\PolicySchema2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema2.PolicySetElement" Collapsed="true">
+    <Position X="11.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAEAAAAAAAAAAACAA=</HashCode>
+      <FileName>Schemas\PolicySchema2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema2.ResourceElement" Collapsed="true">
+    <Position X="8.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Schemas\PolicySchema2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema2.InternalFunctions" Collapsed="true">
+    <Position X="11.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIR4AIIIAAgAAAQAAAAMAgAgACCgAgDBBAAEAAACAA=</HashCode>
+      <FileName>Schemas\PolicySchema2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema2.InternalDataTypes" Collapsed="true">
+    <Position X="5.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Schemas\PolicySchema2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema2.EnvironmentElement" Collapsed="true">
+    <Position X="598.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAQBAAAAAAAAUAAAAgAAAAAA=</HashCode>
+      <FileName>Schemas\PolicySchema2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema2.VariableDefinitionElement" Collapsed="true">
+    <Position X="598.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Schemas\PolicySchema2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema2.PolicyReferenceElement" Collapsed="true">
+    <Position X="603.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Schemas\PolicySchema2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xacml.PolicySchema2.VariableReferenceElement" Collapsed="true">
+    <Position X="602" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Schemas\PolicySchema2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Xacml.Core.Interfaces.IAttributeRepository" Collapsed="true">
+    <Position X="598.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAA=</HashCode>
+      <FileName>Interfaces\IAttributeRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Xacml.Core.Interfaces.IDataType" Collapsed="true">
+    <Position X="600.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAAAAAAgAAAAAIAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IDataType.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Xacml.Core.Interfaces.IDataTypeRepository" Collapsed="true">
+    <Position X="602" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Interfaces\IDataTypeRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Xacml.Core.Interfaces.IExpression" Collapsed="true">
+    <Position X="605.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IExpression.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Xacml.Core.Interfaces.IFunction" Collapsed="true">
+    <Position X="8.5" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAIAAAgAAAAAAAAAAIAgAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IFunction.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Xacml.Core.Interfaces.IFunctionParameter" Collapsed="true">
+    <Position X="8.5" Y="20.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAACAQAAAAAAAAAAEAAFAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IFunctionParameter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Xacml.Core.Interfaces.IFunctionRepository" Collapsed="true">
+    <Position X="607.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Interfaces\IFunctionRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Xacml.Core.Interfaces.IHasTarget" Collapsed="true">
+    <Position X="609" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IHasTarget.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Xacml.Core.Interfaces.IPolicyCombiningAlgorithm" Collapsed="true">
+    <Position X="614.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IPolicyCombiningAlgorithm.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Xacml.Core.Interfaces.IPolicyCombiningAlgorithmRepository" Collapsed="true">
+    <Position X="598.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAACA=</HashCode>
+      <FileName>Interfaces\IPolicyCombiningAlgorithmRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Xacml.Core.Interfaces.IPolicyRepository" Collapsed="true">
+    <Position X="600.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAgAA=</HashCode>
+      <FileName>Interfaces\IPolicyRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Xacml.Core.Interfaces.IRuleCombiningAlgorithm" Collapsed="true">
+    <Position X="602" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IRuleCombiningAlgorithm.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Xacml.Core.Interfaces.IRuleCombiningAlgorithmRepository" Collapsed="true">
+    <Position X="603.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Interfaces\IRuleCombiningAlgorithmRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Xacml.Core.Interfaces.ITypeSpecificFunction" Collapsed="true">
+    <Position X="605.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ITypeSpecificFunction.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Xacml.Core.Runtime.IEvaluable" Collapsed="true">
+    <Position X="603.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\IEvaluable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Xacml.Core.Runtime.IMatchEvaluable" Collapsed="true">
+    <Position X="610.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAABAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\IMatchEvaluable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Xacml.Core.Runtime.IObligationsContainer" Collapsed="true">
+    <Position X="612.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\IObligationsContainer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Xacml.Core.Context.ResourceScope" Collapsed="true">
+    <Position X="605.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Context\ResourceScope.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Xacml.Core.DocumentAccess" Collapsed="true">
+    <Position X="600.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAIAAAAAAA=</HashCode>
+      <FileName>DocumentEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Xacml.Core.DocumentType" Collapsed="true">
+    <Position X="602" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DocumentEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Xacml.Core.XacmlSchema" Collapsed="true">
+    <Position X="609" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>XacmlSchema.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Xacml.Core.XacmlVersion" Collapsed="true">
+    <Position X="610.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>XacmlVersion.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Xacml.Core.Policy.Effect" Collapsed="true">
+    <Position X="603.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Policy\Effect.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Xacml.Core.Runtime.Decision" Collapsed="true">
+    <Position X="598.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Runtime\Decission.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Xacml.Core.Runtime.TargetEvaluationValue" Collapsed="true">
+    <Position X="607.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAgAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runtime\TargetEvaluationValue.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

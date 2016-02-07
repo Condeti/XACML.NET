@@ -218,7 +218,7 @@ namespace Xacml.Core.Runtime
 
 			try
 			{
-				// Validates the configuration file was found.
+			    // Validates the configuration file was found.
 				if( ConfigurationRoot.Config != null )
 				{
 					// Search all the policies repositories to find a policy that matches the 
@@ -242,21 +242,15 @@ namespace Xacml.Core.Runtime
 					{
 						return Evaluate( policyDocument, contextDocument );
 					}
-					else
-					{
-						return Evaluate( (pol.PolicyDocument)null, null );
-					}
+				    return Evaluate(null, null);
 				}
-				else
-				{
-					throw new EvaluationException( Resource.ResourceManager[ Resource.MessageKey.exc_configuration_file_not_found ] );
-				}
+			    throw new EvaluationException(Resource.ResourceManager[ Resource.MessageKey.exc_configuration_file_not_found]);
 			}
 			catch( EvaluationException e )
 			{
 				context.Trace( Resource.TRACE_ERROR, e.Message ); 
 			}
-			return Evaluate( (pol.PolicyDocument)null, null );
+			return Evaluate(null, null);
 		}
 
 		/// <summary>
@@ -288,7 +282,8 @@ namespace Xacml.Core.Runtime
 			context.Trace( "Start evaluation" );
 			context.AddIndent();
 
-			if( policyDocument == null || contextDocument == null )
+
+            if ( policyDocument == null || contextDocument == null )
 			{
 				// If a validation error was found a response is created with the syntax error message
 				ctx.ResponseElement response =

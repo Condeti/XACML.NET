@@ -70,25 +70,25 @@ namespace Xacml.Core.Context
         /// <summary>
         /// The name of the embedded resource for the 1.0 schema.
         /// </summary>
-        public const string XACML_1_0_CONTEXT_SCHEMA_RESOURCE_NAME = "Xacml.Core.Schemas.cs-xacml-schema-context-01.xsd";
+        private const string Xacml10ContextSchemaResourceName = "Xacml.Core.Schemas.cs-xacml-schema-context-01.xsd";
 
         /// <summary>
         /// The name of the embedded resource for the 2.0 schema.
         /// </summary>
-        public const string XACML_2_0_CONTEXT_SCHEMA_RESOURCE_NAME = "Xacml.Core.Schemas.access_control-xacml-2.0-context-schema-cd-01.xsd";
+        private const string Xacml20ContextSchemaResourceName = "Xacml.Core.Schemas.access_control-xacml-2.0-context-schema-os.xsd";
 
         /// <summary>
         /// All the namespaces and the prefix defined in the document. This is used in the XPath
         /// queries because the XPath uses the preffixes and we must provide them in the 
         /// XmlNamespaceManager.
         /// </summary>
-        private Hashtable _namespaces = new Hashtable();
+        private readonly Hashtable _namespaces = new Hashtable();
 
         /// <summary>
         /// The string of the context document, dirty trick to use the XmlReader and also create an XmlDocument 
         /// instance.
         /// </summary>
-        private string _xmlString;
+        private readonly string _xmlString;
 
         /// <summary>
         /// The XmlDocument instance will be created the first time its requested.
@@ -105,12 +105,12 @@ namespace Xacml.Core.Context
         /// <summary>
         /// The compiled schemas are kept in memory for performance reasons.
         /// </summary>
-        private static XmlSchemaSet compiledSchemas11;
+        private static XmlSchemaSet _compiledSchemas11;
 
         /// <summary>
         /// The compiled schemas are kept in memory for performance reasons.
         /// </summary>
-        private static XmlSchemaSet compiledSchemas20;
+        private static XmlSchemaSet _compiledSchemas20;
 #endif
         #endregion
 
@@ -130,7 +130,7 @@ namespace Xacml.Core.Context
         /// <param name="schemaVersion">The schema used to validate this context document.</param>
         public ContextDocumentReadWrite(XmlReader reader, XacmlVersion schemaVersion)
         {
-            if (reader == null) throw new ArgumentNullException("reader");
+            if (reader == null) throw new ArgumentNullException(nameof(reader));
             // Search for the first element.
             while (reader.Read() && reader.NodeType != XmlNodeType.Element)
             { }
@@ -141,21 +141,15 @@ namespace Xacml.Core.Context
             _xmlString = reader.ReadOuterXml();
 
             // Read the contents in a new reader.
-#if NET10
-			XmlTextReader nreader = new XmlTextReader( new StringReader( _xmlString ) );
-#endif
 #if NET20
             StringReader sreader = new StringReader(_xmlString);
 #endif
 
             // Prepare the validation.
-#if NET10
-			XmlValidatingReader vreader = new XmlValidatingReader( nreader );
-#endif
+
 #if NET20
-            ValidationEventHandler validationHandler = new ValidationEventHandler(vreader_ValidationEventHandler);
-            XmlReaderSettings settings = new XmlReaderSettings();
-            settings.ValidationType = ValidationType.Schema;
+            ValidationEventHandler validationHandler = vreader_ValidationEventHandler;
+            XmlReaderSettings settings = new XmlReaderSettings {ValidationType = ValidationType.Schema};
             settings.ValidationEventHandler += validationHandler;
             XmlReader vreader = null;
 #endif
@@ -164,50 +158,46 @@ namespace Xacml.Core.Context
                 case XacmlVersion.Version10:
                 case XacmlVersion.Version11:
                     {
-                        Stream policySchemaStream = Assembly.GetExecutingAssembly().GetManifestResourceStream(pol.PolicyDocument.XACML_1_0_POLICY_SCHEMA_RESOURCE_NAME);
-                        Stream contextSchemaStream = Assembly.GetExecutingAssembly().GetManifestResourceStream(XACML_1_0_CONTEXT_SCHEMA_RESOURCE_NAME);
+                        Stream policySchemaStream = Assembly.GetExecutingAssembly().GetManifestResourceStream(pol.PolicyDocument.Xacml10PolicySchemaResourceName);
+                        Stream contextSchemaStream = Assembly.GetExecutingAssembly().GetManifestResourceStream(Xacml10ContextSchemaResourceName);
 #if NET10
 					    vreader.Schemas.Add( PolicySchema1.Namespaces.Policy, new XmlTextReader( policySchemaStream ) );
 					    vreader.Schemas.Add( PolicySchema1.Namespaces.Context, new XmlTextReader( contexSchemaStream ) );
 #endif
 #if NET20
-                        if (compiledSchemas11 == null)
+                        if (_compiledSchemas11 == null)
                         {
-                            compiledSchemas11 = new XmlSchemaSet();
-                            compiledSchemas11.Add(XmlSchema.Read(policySchemaStream, validationHandler));
-                            compiledSchemas11.Add(XmlSchema.Read(contextSchemaStream, validationHandler));
-                            compiledSchemas11.Compile();
+                            _compiledSchemas11 = new XmlSchemaSet();
+                            _compiledSchemas11.Add(XmlSchema.Read(policySchemaStream, validationHandler));
+                            _compiledSchemas11.Add(XmlSchema.Read(contextSchemaStream, validationHandler));
+                            _compiledSchemas11.Compile();
                         }
-                        settings.Schemas.Add(compiledSchemas11);
+                        settings.Schemas.Add(_compiledSchemas11);
 #endif
                         break;
                     }
                 case XacmlVersion.Version20:
                     {
-                        Stream policySchemaStream = Assembly.GetExecutingAssembly().GetManifestResourceStream(pol.PolicyDocument.XACML_2_0_POLICY_SCHEMA_RESOURCE_NAME);
-                        Stream contextSchemaStream = Assembly.GetExecutingAssembly().GetManifestResourceStream(XACML_2_0_CONTEXT_SCHEMA_RESOURCE_NAME);
-#if NET10
-					    vreader.Schemas.Add( PolicySchema2.Namespaces.Policy, new XmlTextReader( policySchemaStream ) );
-					    vreader.Schemas.Add( PolicySchema2.Namespaces.Context, new XmlTextReader( contexSchemaStream ) );
-#endif
-#if NET20
-                        if (compiledSchemas20 == null)
+                        Stream policySchemaStream = Assembly.GetExecutingAssembly().GetManifestResourceStream(pol.PolicyDocumentReadWrite.Xacml20PolicySchemaResourceName);
+                        Stream contextSchemaStream = Assembly.GetExecutingAssembly().GetManifestResourceStream(Xacml20ContextSchemaResourceName);
+
+                        if (_compiledSchemas20 == null)
                         {
-                            compiledSchemas20 = new XmlSchemaSet();
-                            compiledSchemas20.Add(XmlSchema.Read(policySchemaStream, validationHandler));
-                            compiledSchemas20.Add(XmlSchema.Read(contextSchemaStream, validationHandler));
-                            compiledSchemas20.Compile();
+                            _compiledSchemas20 = new XmlSchemaSet();
+                            if (policySchemaStream != null)
+                                _compiledSchemas20.Add(XmlSchema.Read(policySchemaStream, validationHandler));
+                            if (contextSchemaStream != null)
+                                _compiledSchemas20.Add(XmlSchema.Read(contextSchemaStream, validationHandler));
+                            _compiledSchemas20.Compile();
                         }
-                        settings.Schemas.Add(compiledSchemas20);
-#endif
+                        settings.Schemas.Add(_compiledSchemas20);
+
                         break;
                     }
                 default:
-                    throw new ArgumentException(Resource.ResourceManager[Resource.MessageKey.exc_invalid_version_parameter_value], "version");
+                    throw new ArgumentException(Resource.ResourceManager[Resource.MessageKey.exc_invalid_version_parameter_value], nameof(reader));
             }
-#if NET10
-			vreader.ValidationEventHandler +=new System.Xml.Schema.ValidationEventHandler(vreader_ValidationEventHandler);
-#endif
+
 #if NET20
             vreader = XmlReader.Create(sreader, settings);
 #endif

@@ -72,7 +72,7 @@ namespace Xacml.Core
 			// Validate the parameters
 			if( xmlDocument == null )
 			{
-				throw new ArgumentNullException( "xmlDocument" );
+				throw new ArgumentNullException( nameof(xmlDocument) );
 			}
 
 			// Read the document to determine the version of the schema used.
@@ -92,13 +92,13 @@ namespace Xacml.Core
 			// Validate the parameters
 			if( xmlDocument == null )
 			{
-				throw new ArgumentNullException( "xmlDocument" );
+				throw new ArgumentNullException( nameof(xmlDocument) );
 			}
 
 			// Validate the stream
 			if( !xmlDocument.CanSeek )
 			{
-				throw new ArgumentException( Resource.ResourceManager[ Resource.MessageKey.exc_invalid_stream_parameter_canseek ], "xmlDocument" );
+				throw new ArgumentException( Resource.ResourceManager[ Resource.MessageKey.exc_invalid_stream_parameter_canseek ], nameof(xmlDocument) );
 			}
 
 			// Read the document to determine the version of the schema used.
@@ -121,7 +121,7 @@ namespace Xacml.Core
 			// Validate the parameters
 			if( xmlDocument == null )
 			{
-				throw new ArgumentNullException( "xmlDocument" );
+				throw new ArgumentNullException( nameof(xmlDocument) );
 			}
 
 			return LoadPolicyDocument( new StreamReader( xmlDocument ), version, access );
@@ -140,7 +140,7 @@ namespace Xacml.Core
 			// Validate the parameters
 			if( xmlDocument == null )
 			{
-				throw new ArgumentNullException( "xmlDocument" );
+				throw new ArgumentNullException( nameof(xmlDocument) );
 			}
 
 			return LoadPolicyDocument( new XmlTextReader( xmlDocument ), version, access );
@@ -157,7 +157,7 @@ namespace Xacml.Core
 			// Validate the parameters
 			if( reader == null )
 			{
-				throw new ArgumentNullException( "reader" );
+				throw new ArgumentNullException( nameof(reader) );
 			}
 
 			if( access.Equals(DocumentAccess.ReadOnly) )
@@ -181,7 +181,7 @@ namespace Xacml.Core
 			// Validate the parameters
 			if( xmlDocument == null )
 			{
-				throw new ArgumentNullException( "xmlDocument" );
+				throw new ArgumentNullException( nameof(xmlDocument) );
 			}
 
 			// Read the document to determine the version of the schema used.
@@ -200,13 +200,13 @@ namespace Xacml.Core
 			// Validate the parameters
 			if( xmlDocument == null )
 			{
-				throw new ArgumentNullException( "xmlDocument" );
+				throw new ArgumentNullException( nameof(xmlDocument) );
 			}
 
 			// Validate the stream
 			if( !xmlDocument.CanSeek )
 			{
-				throw new ArgumentException( Resource.ResourceManager[ Resource.MessageKey.exc_invalid_stream_parameter_canseek ], "xmlDocument" );
+				throw new ArgumentException( Resource.ResourceManager[ Resource.MessageKey.exc_invalid_stream_parameter_canseek ], nameof(xmlDocument) );
 			}
 
 			// Read the document to determine the version of the schema used.
@@ -228,7 +228,7 @@ namespace Xacml.Core
 			// Validate the parameters
 			if( xmlDocument == null )
 			{
-				throw new ArgumentNullException( "xmlDocument" );
+				throw new ArgumentNullException( nameof(xmlDocument) );
 			}
 
 			return LoadPolicyDocument( new StreamReader( xmlDocument ), version );
@@ -246,7 +246,7 @@ namespace Xacml.Core
 			// Validate the parameters
 			if( xmlDocument == null )
 			{
-				throw new ArgumentNullException( "xmlDocument" );
+				throw new ArgumentNullException( nameof(xmlDocument) );
 			}
 
 			return LoadPolicyDocument( new XmlTextReader( xmlDocument ), version );
@@ -262,7 +262,7 @@ namespace Xacml.Core
 			// Validate the parameters
 			if( reader == null )
 			{
-				throw new ArgumentNullException( "reader" );
+				throw new ArgumentNullException( nameof(reader) );
 			}
 
 			return new pol.PolicyDocument( reader, version );

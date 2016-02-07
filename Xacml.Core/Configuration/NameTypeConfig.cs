@@ -77,11 +77,14 @@ namespace Xacml.Core.Configuration
 		/// <param name="configNode">The XmlNode for the extension configuration.</param>
 		protected NameTypeConfig( XmlNode configNode )
 		{
-            if (configNode == null) throw new ArgumentNullException("configNode");
+            if (configNode == null) throw new ArgumentNullException(nameof(configNode));
 			_node = configNode;
-			_name = configNode.Attributes[ "name" ].Value;
-			_typeName = configNode.Attributes[ "type" ].Value;
-			_type = Type.GetType( _typeName );
+		    if (configNode.Attributes != null)
+		    {
+		        _name = configNode.Attributes[ "name" ].Value;
+		        _typeName = configNode.Attributes[ "type" ].Value;
+		    }
+		    _type = Type.GetType( _typeName );
 		}
 
 		#endregion
@@ -91,35 +94,23 @@ namespace Xacml.Core.Configuration
 		/// <summary>
 		/// The name of the extension
 		/// </summary>
-		public string Name
-		{
-			get{ return _name; }
-		}
+		public string Name => _name;
 
-		/// <summary>
+	    /// <summary>
 		/// The type name of the extension.
 		/// </summary>
-		public string TypeName
-		{
-			get{ return _typeName; }
-		}
+		public string TypeName => _typeName;
 
-		/// <summary>
+	    /// <summary>
 		/// The instantiated type for the extension.
 		/// </summary>
-		public Type Type
-		{
-			get{ return _type; }
-		}
+		public Type Type => _type;
 
-		/// <summary>
+	    /// <summary>
 		/// The XmlNode with the extension configuration.
 		/// </summary>
-		public XmlNode XmlNode
-		{
-			get{ return _node;}
-		}
+		public XmlNode XmlNode => _node;
 
-		#endregion
+	    #endregion
 	}
 }
