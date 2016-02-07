@@ -188,7 +188,7 @@ namespace Xacml.Core.Policy
                             {
                                 switch (reader.LocalName)
                                 {
-                                    case PolicySchema2.ObligationElement.Obligation:
+                                    case PolicySchema1.ObligationElement.Obligation:
                                         _obligations.Add(new ObligationElementReadWrite(reader, schemaVersion));
                                         break;
                                 }
@@ -241,7 +241,7 @@ namespace Xacml.Core.Policy
                             _variableDefinitions.Add(variable.Id, variable);
                             break;
                     }
-                    if (reader.LocalName == PolicySchema2.PolicyElement.Policy &&
+                    if (reader.LocalName == PolicySchema1.PolicyElement.Policy &&
                         reader.NodeType == XmlNodeType.EndElement)
                     {
                         break;

@@ -81,16 +81,16 @@ namespace Xacml.Core.Runtime
 		/// <param name="context">The evaluation context instance.</param>
 		/// <param name="targetItem">The target item in the context document.</param>
 		/// <returns></returns>
-		public virtual TargetEvaluationValue Evaluate( EvaluationContext context, ctx.TargetItemBase targetItem )
+		public TargetEvaluationValue Evaluate( EvaluationContext context, ctx.TargetItemBase targetItem )
 		{
-            if (context == null) throw new ArgumentNullException("context");
-			if( _targetItems.IsAny )
-			{
-				context.Trace( "IsAny" );
-				return TargetEvaluationValue.Match;
-			}
+            if (context == null) throw new ArgumentNullException(nameof(context));
+            if (_targetItems.IsAny)
+            {
+                context.Trace("IsAny");
+                return TargetEvaluationValue.Match;
+            }
 
-			_evaluationValue = TargetEvaluationValue.NoMatch;
+            _evaluationValue = TargetEvaluationValue.NoMatch;
 
 			//Match TargetItem
 			foreach( pol.TargetItemBase polItem in _targetItems.ItemsList )
@@ -108,54 +108,51 @@ namespace Xacml.Core.Runtime
 						context.ProcessingError = true;
 						return TargetEvaluationValue.Indeterminate;
 					}
-					else if( matchFunction.Returns == null )
-					{
-						// Validates the function return value
-						context.Trace( "ERR: The function '{0}' does not defines it's return value", match.MatchId );
-						context.ProcessingError = true;
-						return TargetEvaluationValue.Indeterminate;
-					}
-					else if( matchFunction.Returns != DataTypeDescriptor.Boolean )
-					{
-						context.Trace( "ERR: Function does not return Boolean a value" );
-						context.ProcessingError = true;
-						return TargetEvaluationValue.Indeterminate;
-					}
-					else
-					{
-						ctx.AttributeElement attribute = EvaluationEngine.Resolve( context, match, targetItem );
+				    if( matchFunction.Returns == null )
+				    {
+				        // Validates the function return value
+				        context.Trace( "ERR: The function '{0}' does not defines it's return value", match.MatchId );
+				        context.ProcessingError = true;
+				        return TargetEvaluationValue.Indeterminate;
+				    }
+				    if( matchFunction.Returns != DataTypeDescriptor.Boolean )
+				    {
+				        context.Trace( "ERR: Function does not return Boolean a value" );
+				        context.ProcessingError = true;
+				        return TargetEvaluationValue.Indeterminate;
+				    }
+				    ctx.AttributeElement attribute = EvaluationEngine.Resolve( context, match, targetItem );
 
-						if( attribute != null )
-						{
-							context.Trace( "Attribute found, evaluating match function" );
-							try
-							{
-								EvaluationValue returnValue = EvaluationEngine.EvaluateFunction( context, matchFunction, match.AttributeValue, attribute );
-								_evaluationValue = returnValue.BoolValue ? TargetEvaluationValue.Match : TargetEvaluationValue.NoMatch;
-							}
-							catch( EvaluationException e )
-							{
-								context.Trace( Resource.TRACE_ERROR, e.Message ); 
-								_evaluationValue = TargetEvaluationValue.Indeterminate;
-							}
-						}
+				    if( attribute != null )
+				    {
+				        context.Trace( "Attribute found, evaluating match function" );
+				        try
+				        {
+				            EvaluationValue returnValue = EvaluationEngine.EvaluateFunction( context, matchFunction, match.AttributeValue, attribute );
+				            _evaluationValue = returnValue.BoolValue ? TargetEvaluationValue.Match : TargetEvaluationValue.NoMatch;
+				        }
+				        catch( EvaluationException e )
+				        {
+				            context.Trace( Resource.TRACE_ERROR, e.Message ); 
+				            _evaluationValue = TargetEvaluationValue.Indeterminate;
+				        }
+				    }
 
-						// Validate MustBePresent
-						if( match.AttributeReference.MustBePresent )
-						{
-							if( context.IsMissingAttribute )
-							{
-								context.Trace( "Attribute not found and must be present" );
-								_evaluationValue = TargetEvaluationValue.Indeterminate;
-							}
-						}
+				    // Validate MustBePresent
+				    if( match.AttributeReference.MustBePresent )
+				    {
+				        if( context.IsMissingAttribute )
+				        {
+				            context.Trace( "Attribute not found and must be present" );
+				            _evaluationValue = TargetEvaluationValue.Indeterminate;
+				        }
+				    }
 
-						// Do not iterate if the value was found
-						if( _evaluationValue != TargetEvaluationValue.Match )
-						{
-							break;
-						}
-					}
+				    // Do not iterate if the value was found
+				    if( _evaluationValue != TargetEvaluationValue.Match )
+				    {
+				        break;
+				    }
 				}
 
 				// Do not iterate if the value was found
